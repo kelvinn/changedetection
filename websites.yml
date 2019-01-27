@@ -21,9 +21,3 @@ websites:
     text: Cap Thermal Weight
     action: added
     delay: 5
-
-  - title: Pat Thermal Weight - Kelvin
-    url: https://www.patagonia.com/product/mens-capilene-thermal-weight-zip-neck-hoody/43667.html
-    text: Kelvin
-    action: remove
-    delay: 5
