@@ -28,8 +28,8 @@ class Config:
 
 def search(url, text):
     session = requests.Session()
-    session.headers.update({'User-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 '
-                                          '(KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'})
+    session.headers.update({'Accept': 'text/html',
+                            'User-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0'})
 
     response = session.get(url)
 
