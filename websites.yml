@@ -1,0 +1,15 @@
+pushover:
+  user_key: PUSHOVER_USER_KEY
+  app_token: PUSHOVER_APP_TOKEN
+
+websites:
+  - title: Pat Thermal Weight - $119
+    url: https://www.patagonia.com/product/mens-capilene-thermal-weight-zip-neck-hoody/43667.html
+    text: $119.00
+    action: remove
+    delay: 24
+  - title: Pat Air Hoody - $149
+    url: https://www.patagonia.com/product/mens-capilene-air-hoody/36495.html?dwvar_36495_color=MICG&cgid=root
+    text: $149.00
+    action: remove
+    delay: 24
