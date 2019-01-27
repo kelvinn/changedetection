@@ -35,7 +35,7 @@ def search(url, text):
 
     s = response.text
 
-    return True if response.status_code == 200 and s.count('Quick') > 0 else False
+    return True if response.status_code == 200 and s.count(text) > 0 else False
 
 
 def send(website):
