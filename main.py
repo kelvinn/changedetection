@@ -3,6 +3,7 @@ import sys
 import os
 import requests
 import redis
+import logging
 from datetime import datetime, timedelta
 import http.client
 import urllib
@@ -70,6 +71,7 @@ def run():
 
         found = search(url, text)
         if (action == 'remove' and not found) or (action == 'added' and found) and not back_off(key, delay):
+            logging.info(f'Sending alert for {text} on {url}. Action: {action}. Delay: {delay}.')
             send(website)
 
 
