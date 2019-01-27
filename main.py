@@ -70,7 +70,7 @@ def run():
         key = hashlib.sha224(f'{url + text}'.encode()).hexdigest()
 
         found = search(url, text)
-        if (action == 'remove' and not found) or (action == 'added' and found) and not back_off(key, delay):
+        if ((action == 'remove' and not found) or (action == 'added' and found)) and not back_off(key, delay):
             logging.info(f'Sending alert for {text} on {url}. Action: {action}. Delay: {delay}.')
             send(website)
 
