@@ -4,9 +4,12 @@ import os
 import requests
 import redis
 from datetime import datetime, timedelta
-import http.client, urllib
+import http.client
+import urllib
+import hashlib
 
-cache = redis.Redis(host='localhost', port=6379)
+REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
+cache = redis.from_url(REDIS_URL)
 
 
 class Config:
@@ -55,12 +58,14 @@ def send(website):
 def run():
     for website in c.websites:
         url, text, delay = website['url'], website['text'], website['delay']
+        key = hashlib.sha224(f'{url + text}'.encode()).hexdigest()
+
         if search(url, text):
             past = datetime.now() - timedelta(days=delay)
 
-            last_update = cache.get(url)
+            last_update = cache.get(key)
             if not last_update or datetime.fromisoformat(last_update.decode()) < past:
-                cache.set(url, datetime.now().isoformat())
+                cache.set(key, datetime.now().isoformat())
                 send(website)
 
 
