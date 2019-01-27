@@ -34,10 +34,7 @@ def search(url, text):
 
     s = response.text
 
-    if response.status_code == 200 and s.count(text) > 0:
-        return True
-    else:
-        return False
+    return True if response.status_code == 200 and s.count('Quick') > 0 else False
 
 
 def send(website):
@@ -55,18 +52,25 @@ def send(website):
         return conn.getresponse()
 
 
+def back_off(key, delay):
+    past = datetime.now() - timedelta(days=delay)
+
+    last_update = cache.get(key)
+    if not last_update or datetime.fromisoformat(last_update.decode()) < past:
+        cache.set(key, datetime.now().isoformat())
+        return False
+    else:
+        return True
+
+
 def run():
     for website in c.websites:
-        url, text, delay = website['url'], website['text'], website['delay']
+        url, text, delay, action = website['url'], website['text'], website['delay'], website['action']
         key = hashlib.sha224(f'{url + text}'.encode()).hexdigest()
 
-        if search(url, text):
-            past = datetime.now() - timedelta(days=delay)
-
-            last_update = cache.get(key)
-            if not last_update or datetime.fromisoformat(last_update.decode()) < past:
-                cache.set(key, datetime.now().isoformat())
-                send(website)
+        found = search(url, text)
+        if (action == 'remove' and not found) or (action == 'added' and found) and not back_off(key, delay):
+            send(website)
 
 
 if __name__ == "__main__":

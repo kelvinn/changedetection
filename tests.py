@@ -30,8 +30,6 @@ class AppTestCase(unittest.TestCase):
         self.assertTrue(result)
 
 
-
-
 if __name__ == '__main__':
 
     unittest.main()
