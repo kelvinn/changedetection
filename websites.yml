@@ -28,3 +28,63 @@ websites:
     text: Air Hoody
     action: added
     delay: 5
+
+  - title: Pat Thermal Weight - Web Specials - Air Shed
+    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-54
+    text: Airshed
+    action: added
+    delay: 5
+
+  - title: Mont-Bell Plasma 1000
+    url: https://www.montbell.us/products/disp.php?cat_id=25010&p_id=2301460&gen_cd=1
+    text: $329.00
+    action: removed
+    delay: 5
+
+  - title: Mont-Bell Plasma 1000
+    url: https://www.montbell.us/products/disp.php?cat_id=25010&p_id=2301460&gen_cd=1
+    text: $329.00
+    action: removed
+    delay: 5
+
+  - title: Mont-Bell Ex Light Down Closeout
+    url: https://www.montbell.us/products/list.php?cat_id=5010&gen_cd=1&fo_flg=1
+    text: EX LIGHT DOWN
+    action: added
+    delay: 5
+
+  - title: Mont-Bell Ex Light Wind Closeout
+    url: https://www.montbell.us/products/list.php?cat_id=5010&gen_cd=1&fo_flg=1
+    text: EX LIGHT WIND
+    action: added
+    delay: 5
+
+  - title: Mont-Bell Ex Light Wind Closeout
+    url: https://www.montbell.us/products/list.php?cat_id=5010&gen_cd=1&fo_flg=1
+    text: EX LIGHT WIND
+    action: added
+    delay: 5
+
+  - title: Pat Micro Hoody
+    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-54
+    text: Micro Puff
+    action: added
+    delay: 5
+
+  - title: Therm-a-rest NeoAir Xlite Woman
+    url: https://www.trekkinn.com/outdoor-mountain/therm-a-rest-neoair-xlite-woman/136028053/p
+    text: 207.95
+    action: removed
+    delay: 5
+
+  - title: Men's Ghost Whisperer
+    url: https://www.mountainhardwear.com/mens-ghost-whisperer-down-jacket-1560901.html
+    text: $325.00
+    action: removed
+    delay: 5
+
+  - title: Men's Ghost Whisperer - Sale
+    url: https://www.mountainhardwear.com/mens-jacket-sale/
+    text: Ghost Whisperer
+    action: added
+    delay: 5
