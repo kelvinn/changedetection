@@ -35,21 +35,25 @@ def search(url, text):
 
     s = response.text
 
-    return True if response.status_code == 200 and s.count(text) > 0 else False
+    return response.status_code, True if response.status_code == 200 and s.count(text) > 0 else False
 
 
-def send(config, website):
+def send(key, config, msg):
 
         app_token = os.environ.get(config.pushover['app_token'], None)
         user_key = os.environ.get(config.pushover['user_key'], None)
+
+        logging.info(f'Sending the msg: {msg}.')
+        cache.set(key, datetime.now().isoformat())  # Set a datetime when we sent the message
 
         conn = http.client.HTTPSConnection("api.pushover.net:443")
         conn.request("POST", "/1/messages.json",
                      urllib.parse.urlencode({
                          "token": app_token,
                          "user": user_key,
-                         "message": website['title'],
+                         "message": msg,
                      }), {"Content-type": "application/x-www-form-urlencoded"})
+
         return conn.getresponse()
 
 
@@ -57,11 +61,7 @@ def back_off(key, delay):
     past = datetime.now() - timedelta(days=delay)
 
     last_update = cache.get(key)
-    if not last_update or datetime.fromisoformat(last_update.decode()) < past:
-        cache.set(key, datetime.now().isoformat())
-        return False
-    else:
-        return True
+    return False if not last_update or datetime.fromisoformat(last_update.decode()) < past else True
 
 
 def run(config):
@@ -69,10 +69,13 @@ def run(config):
         url, text, delay, action = website['url'], website['text'], website['delay'], website['action']
         key = hashlib.sha224(f'{url + text}'.encode()).hexdigest()
 
-        found = search(url, text)
+        resp_code, found = search(url, text)
+
         if ((action == 'remove' and not found) or (action == 'added' and found)) and not back_off(key, delay):
-            logging.info(f'Sending alert for {text} on {url}. Action: {action}. Delay: {delay}.')
-            send(config, website)
+            send(key, config, website['title'])
+
+        elif resp_code == 404 and not back_off(key, delay):
+            send(key, config, f'Page Not Found {text}')
 
 
 if __name__ == "__main__":
