@@ -1,11 +1,10 @@
-language: generic
-
+language: python
+python: 3.7
 services:
-  - docker
+  - redis-server
 
 before_script:
   - pip install -r requirements.txt
-  -
 
 script:
   - python tests.py
@@ -13,4 +12,4 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: "YOUR ENCRYPTED API KEY"
+    secure: ixyGRTLWja1dFB443apdcDBTgXpAw+G7RWktkfCZgo/XpvHA6AjSl4blgc3qAQlk7QpF++WEE5i+PcAc6VmriRoBqVw84ta4UcXHfBv1zTK77KxRza0rFBaEZ9M8TX6Cd3BRBHslqJ4Jt9sjzEesTGnVDgzBLDoe4ANWZ+TK8i9Hz5sv/a0l6SmaW5Q2T/YPdl4EMwbC5fRL/G4Dj/JWFeslo88TYjmKHMoUliJeUYrfQTRCCWJrxfyngFfx2Z1X7Rj3ScBoiC6nxQuPIK3HdvWDPF6Uep9j4pe6b1MYKDDMgJPkPWFG97DyMXS65h87xbv+dNpagSmCE50TBLaKLQ0KbH8OYImQG7H7XjCWu3VYbFc7+ArToTiPznZyKRAWtLgrofj2F0+ipDfL4pdMDc82+tqv2imYf9tLU1mrOj2UwsLQ+z7mlPPdZ6JSBIynpF/grQYXTDp9N4n7UuZmrPtAnRCm04VuXh72nai2uhrwtrN7VQqVWnFl5Au0ViQuNUp9kUPycvi270BwZNyVh+jSzfBKwAm2gLRhpBPgQWpmYolTnRz+fO2tjx4zwaoLRUgXf/B+snDiVP/iKEEA/fkyeQlI6x5TLUs9qsoJmjpxVLC1lf9DYEz/NRDIjFXaw4nSDXWjRvA+hh1268V6IJ+ZsbXbCYXdLVnBlxUUIpE=
