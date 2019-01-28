@@ -1,4 +1,4 @@
 requests
 redis
 pyyaml
-invoke
+responses
