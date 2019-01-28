@@ -46,15 +46,14 @@ def send(key, config, msg):
         logging.info(f'Sending the msg: {msg}.')
         cache.set(key, datetime.now().isoformat())  # Set a datetime when we sent the message
 
-        conn = http.client.HTTPSConnection("api.pushover.net:443")
-        conn.request("POST", "/1/messages.json",
-                     urllib.parse.urlencode({
-                         "token": app_token,
-                         "user": user_key,
-                         "message": msg,
-                     }), {"Content-type": "application/x-www-form-urlencoded"})
+        r = requests.post('https://api.pushover.net/1/messages.json',
+                          data={
+                              'token': app_token,
+                              'user': user_key,
+                              'message': msg,
+                          })
 
-        return conn.getresponse()
+        return r.status_code
 
 
 def back_off(key, delay):
@@ -65,17 +64,19 @@ def back_off(key, delay):
 
 
 def run(config):
+    results = []
     for website in config.websites:
-        url, text, delay, action = website['url'], website['text'], website['delay'], website['action']
-        key = hashlib.sha224(f'{url + text}'.encode()).hexdigest()
+        url, text, delay, action = website['url'], str(website['text']), website['delay'], website['action']
+        key = hashlib.sha224(f'{url + str(text)}'.encode()).hexdigest()
 
         resp_code, found = search(url, text)
 
         if ((action == 'remove' and not found) or (action == 'added' and found)) and not back_off(key, delay):
-            send(key, config, website['title'])
+            results.append(send(key, config, website['title']))
 
         elif resp_code == 404 and not back_off(key, delay):
-            send(key, config, f'Page Not Found {text}')
+            results.append(send(key, config, f'Page Not Found {text}'))
+    return results
 
 
 if __name__ == "__main__":
