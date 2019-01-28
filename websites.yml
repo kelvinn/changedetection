@@ -88,3 +88,21 @@ websites:
     text: Ghost Whisperer
     action: added
     delay: 5
+
+  - title: Borah Gear Ultralight Down Jacket - In Stock
+    url: http://borahgear.com/jacket.html
+    text: currently unavailable
+    action: added
+    delay: 5
+
+  - title: Patagonia Men's Ultralight Down Jacket
+    url: https://www.patagonia.com/product/mens-ultralight-down-jacket/84757.html
+    text: $299.00
+    action: removed
+    delay: 5
+
+  - title: Patagonia Men's Micro Puff Hoody
+    url: https://www.patagonia.com/product/mens-micro-puff-hoody/84030.html
+    text: $299.00
+    action: removed
+    delay: 5
