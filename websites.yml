@@ -1,3 +1,4 @@
+---
 pushover:
   user_key: PUSHOVER_USER_KEY
   app_token: PUSHOVER_APP_TOKEN
@@ -16,8 +17,14 @@ websites:
     action: remove
     delay: 5
 
-  - title: Pat Thermal Weight - Web Specials
+  - title: Pat Thermal Weight - Web Specials - Cap Thermal Weight
     url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-54
     text: Cap Thermal Weight
+    action: added
+    delay: 5
+
+  - title: Pat Thermal Weight - Web Specials - Air Hoody
+    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-54
+    text: Air Hoody
     action: added
     delay: 5

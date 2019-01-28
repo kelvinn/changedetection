@@ -1,7 +1,8 @@
 import unittest
 
 import responses
-from main import search
+from datetime import datetime
+from main import search, back_off, cache, send, Config
 
 
 def cleanup():
@@ -27,6 +28,13 @@ class AppTestCase(unittest.TestCase):
         result = search(
             'https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-54', 'Airdini Cap'
         )
+        self.assertTrue(result)
+
+    def test_back_off(self):
+        key = 'foo'
+        cache.set(key, datetime.now().isoformat())
+
+        result = back_off(key, 5)
         self.assertTrue(result)
 
 

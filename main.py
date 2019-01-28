@@ -38,10 +38,10 @@ def search(url, text):
     return True if response.status_code == 200 and s.count(text) > 0 else False
 
 
-def send(website):
+def send(config, website):
 
-        app_token = os.environ.get(c.pushover['app_token'], None)
-        user_key = os.environ.get(c.pushover['user_key'], None)
+        app_token = os.environ.get(config.pushover['app_token'], None)
+        user_key = os.environ.get(config.pushover['user_key'], None)
 
         conn = http.client.HTTPSConnection("api.pushover.net:443")
         conn.request("POST", "/1/messages.json",
@@ -64,17 +64,17 @@ def back_off(key, delay):
         return True
 
 
-def run():
-    for website in c.websites:
+def run(config):
+    for website in config.websites:
         url, text, delay, action = website['url'], website['text'], website['delay'], website['action']
         key = hashlib.sha224(f'{url + text}'.encode()).hexdigest()
 
         found = search(url, text)
         if ((action == 'remove' and not found) or (action == 'added' and found)) and not back_off(key, delay):
             logging.info(f'Sending alert for {text} on {url}. Action: {action}. Delay: {delay}.')
-            send(website)
+            send(config, website)
 
 
 if __name__ == "__main__":
     c = Config()
-    run()
+    run(c)
