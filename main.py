@@ -5,8 +5,6 @@ import requests
 import redis
 import logging
 from datetime import datetime, timedelta
-import http.client
-import urllib
 import hashlib
 
 REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
@@ -24,6 +22,9 @@ class Config:
             except yaml.YAMLError as exc:
                 print(exc)
                 sys.exit(0)
+
+
+config = Config()
 
 
 def search(url, text):
@@ -63,7 +64,7 @@ def back_off(key, delay):
     return False if not last_update or datetime.fromisoformat(last_update.decode()) < past else True
 
 
-def run(config):
+def run(event=None, context=None):
     results = []
     for website in config.websites:
         url, text, delay, action = website['url'], str(website['text']), website['delay'], website['action']
@@ -80,5 +81,4 @@ def run(config):
 
 
 if __name__ == "__main__":
-    c = Config()
-    run(c)
+    run()

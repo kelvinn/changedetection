@@ -2,7 +2,7 @@ import unittest
 
 import responses
 from datetime import datetime
-from main import search, back_off, cache, send, Config, run
+from main import search, back_off, cache, send, Config, run, config
 
 
 def cleanup():
@@ -53,12 +53,11 @@ class AppTestCase(unittest.TestCase):
 
     @responses.activate
     def test_run(self):
-        c = Config()
-        c.websites = [{'title': 'test',
-                       'url': 'https://www.patagonia.com/shop/web-specials-mens',
-                       'text': 'Airdini Cap',
-                       'action': 'added',
-                       'delay': 5}]
+        config.websites = [{'title': 'test',
+                            'url': 'https://www.patagonia.com/shop/web-specials-mens',
+                            'text': 'Airdini Cap',
+                            'action': 'added',
+                            'delay': 5}]
 
         with open(r'data/patagonia.html') as f:
             sample = f.read()
@@ -73,7 +72,7 @@ class AppTestCase(unittest.TestCase):
                           'request': '647d2300-702c-4b38-8b2f-d56326ae460b'
                       })
 
-        results = run(c)
+        results = run()
         self.assertEqual(201, results[0])
 
 

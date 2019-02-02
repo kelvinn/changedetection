@@ -106,3 +106,10 @@ websites:
     text: $299.00
     action: removed
     delay: 5
+
+  - title: Patagonia Men's Thermal Weight
+    url: https://www.paddypallin.com.au/clearance/patagonia-clearance.html
+    text: Thermal Weight
+    action: added
+    delay: 5
+
