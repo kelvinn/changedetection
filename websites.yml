@@ -112,3 +112,15 @@ websites:
     text: Thermal Weight
     action: added
     delay: 5
+
+  - title: Toms - Patagonia Men's Thermal Weight
+    url: https://www.tomsoutdoors.com.au/products/patagonia-mens-capilene-thermal-weight-zip-neck?variant=992626016262
+    text: $139.95
+    action: removed
+    delay: 5
+
+  - title: REI - Garmin inReach Mini
+    url: https://www.rei.com/product/140110/garmin-inreach-mini-2-way-satellite-communicator
+    text: $350.00
+    action: removed
+    delay: 5
