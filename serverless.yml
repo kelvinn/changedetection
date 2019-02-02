@@ -60,8 +60,6 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: handler.hello
   run:
     handler: main.run
     events:

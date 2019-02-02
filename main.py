@@ -73,10 +73,14 @@ def run(event=None, context=None):
         resp_code, found = search(url, text)
 
         if ((action == 'remove' and not found) or (action == 'added' and found)) and not back_off(key, delay):
+            logging.info(f'Change found: {url, text, action} ')
             results.append(send(key, config, website['title']))
 
         elif resp_code == 404 and not back_off(key, delay):
+            logging.warning(f'404: {url}')
             results.append(send(key, config, f'Page Not Found {text}'))
+        else:
+            logging.info(f'No change found: {url, text, action}')
     return results
 
 
