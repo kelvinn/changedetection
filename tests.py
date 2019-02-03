@@ -46,8 +46,7 @@ class AppTestCase(unittest.TestCase):
                           'request': '647d2300-702c-4b38-8b2f-d56326ae460b'
                       })
 
-        c = Config()
-        result = send('1742b2350006e55ba3241d3e0b2926c45150c30ea782d778bc1fce6e', c, 'Test Msg')
+        result = send('1742b2350006e55ba3241d3e0b2926c45150c30ea782d778bc1fce6e', 'Test Msg', 'https://example.com')
 
         self.assertEqual(201, result)
 

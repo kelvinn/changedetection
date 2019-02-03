@@ -39,19 +39,19 @@ def search(url, text):
     return response.status_code, True if response.status_code == 200 and s.count(text) > 0 else False
 
 
-def send(key, config, msg):
+def send(key, msg, url):
 
         app_token = os.environ.get(config.pushover['app_token'], None)
         user_key = os.environ.get(config.pushover['user_key'], None)
 
         logging.info(f'Sending the msg: {msg}.')
         cache.set(key, datetime.now().isoformat())  # Set a datetime when we sent the message
-
         r = requests.post('https://api.pushover.net/1/messages.json',
                           data={
                               'token': app_token,
                               'user': user_key,
-                              'message': msg,
+                              'message': f'<a href="{url}">{msg}</a>',
+                              'title': msg
                           })
 
         return r.status_code
@@ -74,7 +74,7 @@ def run(event=None, context=None):
 
         if ((action == 'remove' and not found) or (action == 'added' and found)) and not back_off(key, delay):
             logging.info(f'Change found: {url, text, action} ')
-            results.append(send(key, config, website['title']))
+            results.append(send(key=key, msg=website['title'], url=website['url']))
 
         elif resp_code == 404 and not back_off(key, delay):
             logging.warning(f'404: {url}')
