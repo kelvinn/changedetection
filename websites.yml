@@ -18,19 +18,19 @@ websites:
     delay: 5
 
   - title: Pat Thermal Weight - Web Specials - Cap Thermal Weight
-    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-54
+    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
     text: Cap Thermal Weight
     action: added
     delay: 5
 
   - title: Pat Thermal Weight - Web Specials - Air Hoody
-    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-100
+    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
     text: Air Hoody
     action: added
     delay: 5
 
   - title: Pat Thermal Weight - Web Specials - Air Shed
-    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-100
+    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
     text: Airshed
     action: added
     delay: 5
@@ -66,7 +66,7 @@ websites:
     delay: 5
 
   - title: Pat Micro Hoody
-    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-100
+    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
     text: Micro Puff
     action: added
     delay: 5
@@ -122,5 +122,29 @@ websites:
   - title: REI - Garmin inReach Mini
     url: https://www.rei.com/product/140110/garmin-inreach-mini-2-way-satellite-communicator
     text: $350.00
+    action: removed
+    delay: 5
+
+  - title: Katabatic Gear - Palisade
+    url: https://katabaticgear.com/shop/palisade-sleeping-bag/
+    text: $340.00 – $435.00
+    action: removed
+    delay: 5
+
+  - title: Katabatic Gear - Palisade - Sale Shelf
+    url: https://katabaticgear.com/sale-shelf/
+    text: Palisade
+    action: added
+    delay: 5
+
+  - title: Backcountry - Pat Thermal Weight
+    url: https://www.backcountry.com/patagonia-capilene-thermal-weight-zip-neck-top-mens?fskid=PAT00VM-BK-M
+    text: $99.00
+    action: removed
+    delay: 5
+
+  - title: Backcountry - Pat Thermal Weight
+    url: https://www.backcountry.com/patagonia-capilene-thermal-weight-zip-neck-top-mens?fskid=PAT00VM-BK-M
+    text: $99.00
     action: removed
     delay: 5
