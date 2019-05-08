@@ -125,18 +125,6 @@ websites:
     action: removed
     delay: 5
 
-  - title: Katabatic Gear - Palisade
-    url: https://katabaticgear.com/shop/palisade-sleeping-bag/
-    text: $340.00 – $435.00
-    action: removed
-    delay: 5
-
-  - title: Katabatic Gear - Palisade - Sale Shelf
-    url: https://katabaticgear.com/sale-shelf/
-    text: Palisade
-    action: added
-    delay: 5
-
   - title: Backcountry - Pat Thermal Weight
     url: https://www.backcountry.com/patagonia-capilene-thermal-weight-zip-neck-top-mens?fskid=PAT00VM-BK-M
     text: $99.00
@@ -146,5 +134,23 @@ websites:
   - title: Backcountry - Pat Thermal Weight
     url: https://www.backcountry.com/patagonia-capilene-thermal-weight-zip-neck-top-mens?fskid=PAT00VM-BK-M
     text: $99.00
+    action: removed
+    delay: 5
+
+  - title: REI - Therm-a-Rest NeoAir XLite
+    url: https://www.rei.com/product/881598/therm-a-rest-neoair-xlite-sleeping-pad-womens
+    text: $159.95
+    action: removed
+    delay: 5
+
+  - title: Campsaver - Therm-a-Rest NeoAir XLite
+    url: https://www.campsaver.com/therm-a-rest-neoair-xlite-sleeping-pad-women-s.html
+    text: $159.95
+    action: removed
+    delay: 5
+
+  - title: WildEarth - Therm-a-Rest NeoAir XLite
+    url: https://www.wildearth.com.au/buy/thermarest-neoair-xtherm-vapour-regular/S218.06077
+    text: $419.95
     action: removed
     delay: 5
