@@ -154,3 +154,10 @@ websites:
     text: $419.95
     action: removed
     delay: 5
+
+  - title: Trekkin - Therm-a-Rest NeoAir XLite
+    url: https://www.trekkinn.com/outdoor-mountain/therm-a-rest-neoair-xlite-woman/136028053/p
+    text: AU$ 219.95
+    action: removed
+    delay: 5
+
