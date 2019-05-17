@@ -160,3 +160,9 @@ websites:
     text: AU$ 219.95
     action: removed
     delay: 5
+
+  - title: Alpine Linux Proj4 Updated
+    url: https://git.alpinelinux.org/aports/tree/testing/proj4/APKBUILD
+    text: 6.0.0
+    action: added
+    delay: 5
