@@ -41,20 +41,20 @@ def search(url, text):
 
 def send(key, msg, url):
 
-        app_token = os.environ.get(config.pushover['app_token'], None)
-        user_key = os.environ.get(config.pushover['user_key'], None)
+    app_token = os.environ.get(config.pushover['app_token'], None)
+    user_key = os.environ.get(config.pushover['user_key'], None)
 
-        logging.info(f'Sending the msg: {msg}.')
-        cache.set(key, datetime.now().isoformat())  # Set a datetime when we sent the message
-        r = requests.post('https://api.pushover.net/1/messages.json',
-                          data={
-                              'token': app_token,
-                              'user': user_key,
-                              'message': f'<a href="{url}">{msg}</a>',
-                              'title': msg
-                          })
+    logging.info(f'Sending the msg: {msg}.')
+    cache.set(key, datetime.now().isoformat())  # Set a datetime when we sent the message
+    r = requests.post('https://api.pushover.net/1/messages.json',
+                      data={
+                          'token': app_token,
+                          'user': user_key,
+                          'message': f'<a href="{url}">{msg}</a>',
+                          'title': msg
+                      })
 
-        return r.status_code
+    return r.status_code
 
 
 def back_off(key, delay):
