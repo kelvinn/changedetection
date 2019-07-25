@@ -11,12 +11,6 @@ websites:
     action: remove
     delay: 5
 
-  - title: Pat Air Hoody - $149
-    url: https://www.patagonia.com/product/mens-capilene-air-hoody/36495.html?dwvar_36495_color=MICG&cgid=root
-    text: $149.00
-    action: remove
-    delay: 5
-
   - title: Pat Thermal Weight - Web Specials - Cap Thermal Weight
     url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
     text: Cap Thermal Weight
@@ -65,24 +59,6 @@ websites:
     action: added
     delay: 5
 
-  - title: Pat Micro Hoody
-    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
-    text: Micro Puff
-    action: added
-    delay: 5
-
-  - title: Therm-a-rest NeoAir Xlite Woman
-    url: https://www.trekkinn.com/outdoor-mountain/therm-a-rest-neoair-xlite-woman/136028053/p
-    text: 207.95
-    action: removed
-    delay: 5
-
-  - title: Men's Ghost Whisperer
-    url: https://www.mountainhardwear.com/mens-ghost-whisperer-down-jacket-1560901.html
-    text: $325.00
-    action: removed
-    delay: 5
-
   - title: Men's Ghost Whisperer - Sale
     url: https://www.mountainhardwear.com/mens-jacket-sale/
     text: Ghost Whisperer
@@ -107,33 +83,9 @@ websites:
     action: removed
     delay: 5
 
-  - title: Patagonia Men's Thermal Weight
-    url: https://www.paddypallin.com.au/clearance/patagonia-clearance.html
-    text: Thermal Weight
-    action: added
-    delay: 5
-
-  - title: Toms - Patagonia Men's Thermal Weight
-    url: https://www.tomsoutdoors.com.au/products/patagonia-mens-capilene-thermal-weight-zip-neck?variant=992626016262
-    text: $139.95
-    action: removed
-    delay: 5
-
   - title: REI - Garmin inReach Mini
     url: https://www.rei.com/product/140110/garmin-inreach-mini-2-way-satellite-communicator
     text: $350.00
-    action: removed
-    delay: 5
-
-  - title: Backcountry - Pat Thermal Weight
-    url: https://www.backcountry.com/patagonia-capilene-thermal-weight-zip-neck-top-mens?fskid=PAT00VM-BK-M
-    text: $99.00
-    action: removed
-    delay: 5
-
-  - title: Backcountry - Pat Thermal Weight
-    url: https://www.backcountry.com/patagonia-capilene-thermal-weight-zip-neck-top-mens?fskid=PAT00VM-BK-M
-    text: $99.00
     action: removed
     delay: 5
 
@@ -143,26 +95,8 @@ websites:
     action: removed
     delay: 5
 
-  - title: Campsaver - Therm-a-Rest NeoAir XLite
-    url: https://www.campsaver.com/therm-a-rest-neoair-xlite-sleeping-pad-women-s.html
-    text: $159.95
+  - title: MontBell Peak Dry
+    url: https://www.montbell.us/products/disp.php?cat_id=25013&p_id=1128632&gen_cd=1
+    text: 329.00
     action: removed
-    delay: 5
-
-  - title: WildEarth - Therm-a-Rest NeoAir XLite
-    url: https://www.wildearth.com.au/buy/thermarest-neoair-xtherm-vapour-regular/S218.06077
-    text: $419.95
-    action: removed
-    delay: 5
-
-  - title: Trekkin - Therm-a-Rest NeoAir XLite
-    url: https://www.trekkinn.com/outdoor-mountain/therm-a-rest-neoair-xlite-woman/136028053/p
-    text: AU$ 219.95
-    action: removed
-    delay: 5
-
-  - title: Alpine Linux Proj4 Updated
-    url: https://git.alpinelinux.org/aports/tree/testing/proj4/APKBUILD
-    text: 6.0.0
-    action: added
     delay: 5
