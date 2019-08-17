@@ -25,6 +25,9 @@ provider:
     PUSHOVER_APP_TOKEN: ${ssm:/changedetection/dev/pushover/apptoken~true}
     PUSHOVER_USER_KEY: ${ssm:/changedetection/dev/pushover/userkey~true}
     REDIS_URL: ${ssm:/changedetection/dev/redis~true}
+    MONGODB_DB: ${ssm:/changedetection/dev/mongodb/dbname~true}
+    MONGODB_CONNECTION_URL: ${ssm:/changedetection/dev/mongodb/connection~true}
+    MONGODB_COLLECTION: ${ssm:/changedetection/dev/mongodb/collection~true}
 
 # you can overwrite defaults here
 #  stage: dev

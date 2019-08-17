@@ -25,7 +25,7 @@ MONGODB_CONNECTION_URL = SHUB_PROJECT_SETTINGS.get('MONGODB_CONNECTION_URL') if 
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'price_monitor.pipelines.CollectionStoragePipeline': 400,
-    #'price_monitor.pipelines.MongoDBPipeline': 400,
+    'price_monitor.pipelines.MongoDBPipeline': 400,
 }
 
 AUTOTHROTTLE_ENABLED = True
