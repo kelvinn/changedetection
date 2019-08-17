@@ -12,6 +12,9 @@ SHUB_KEY = os.getenv('$SHUB_KEY')
 # if you want to run it locally, replace '999999' by your Scrapy Cloud project ID below
 SHUB_PROJ_ID = os.getenv('SHUB_JOBKEY', '999999').split('/')[0]
 
+
+""" Uncomment to run on ScrapingHub
+
 SHUB_PROJECT_SETTINGS = json.loads(os.getenv('SHUB_SETTINGS', '{}')).get('project_settings')
 
 #if SHUB_SETTINGS:
@@ -21,6 +24,12 @@ SHUB_PROJECT_SETTINGS = json.loads(os.getenv('SHUB_SETTINGS', '{}')).get('projec
 MONGODB_DB = SHUB_PROJECT_SETTINGS.get('MONGODB_DB') if SHUB_PROJECT_SETTINGS else 'scrapy'
 MONGODB_COLLECTION = SHUB_PROJECT_SETTINGS.get('MONGODB_COLLECTION') if SHUB_PROJECT_SETTINGS else "price_monitor"
 MONGODB_CONNECTION_URL = SHUB_PROJECT_SETTINGS.get('MONGODB_CONNECTION_URL') if SHUB_PROJECT_SETTINGS else 'mongodb://scrapy:password@localhost'
+
+"""
+
+MONGODB_DB = os.getenv('MONGODB_DB', 'scrapy')
+MONGODB_COLLECTION = os.getenv('MONGODB_COLLECTION', "price_monitor")
+MONGODB_CONNECTION_URL = os.getenv('MONGODB_CONNECTION_URL', 'mongodb://scrapy:password@localhost')
 
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
