@@ -3,3 +3,13 @@ redis
 pyyaml
 responses
 yamllint
+scrapy
+boto
+extruct
+w3lib
+jinja2
+scrapinghub==2.0.3
+shub
+pymongo
+dnspython
+msgpack-python

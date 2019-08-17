@@ -35,12 +35,6 @@ websites:
     action: removed
     delay: 5
 
-  - title: Mont-Bell Plasma 1000
-    url: https://www.montbell.us/products/disp.php?cat_id=25010&p_id=2301460&gen_cd=1
-    text: $329.00
-    action: removed
-    delay: 5
-
   - title: Mont-Bell Ex Light Down Closeout
     url: https://www.montbell.us/products/list.php?cat_id=5010&gen_cd=1&fo_flg=1
     text: EX LIGHT DOWN

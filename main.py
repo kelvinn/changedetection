@@ -6,6 +6,10 @@ import redis
 import logging
 from datetime import datetime, timedelta
 import hashlib
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
+from price_monitor.spiders import amazon, montbell, rei, ebay, patagonia
+
 
 REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
 cache = redis.from_url(REDIS_URL)
@@ -82,6 +86,16 @@ def run(event=None, context=None):
         else:
             logging.info(f'No change found: {url, text, action}')
     return results
+
+
+def scrape(event=None, context=None):
+    spiders = [amazon.AmazonSpider, montbell.MontbellSpider, rei.ReiSpider, ebay.EbaySpider, patagonia.PatagoniaSpider]
+    process = CrawlerProcess(get_project_settings())
+
+    for spider in spiders:
+        process.crawl(spider)
+
+    process.start()  # blocking call
 
 
 if __name__ == "__main__":
