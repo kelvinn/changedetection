@@ -7,7 +7,7 @@ PRICE_SALE_SELECTOR = "body > div.body-wrap > div.page.ui-offcanvas-main > artic
 PRICE_INACTIVE_SELECTOR = "body > div.body-wrap > div.page.ui-offcanvas-main > article > div.product-overview.js-product-overview > section.product-buybox.js-product-buybox.qa-product-buybox > div.product-pricing.js-item-price > span.product-pricing__inactive"
 
 
-class PatagoniaSpider(BaseSpider):
+class BackcountrySpider(BaseSpider):
     name = "backcountry.com"
 
     def parse(self, response):
