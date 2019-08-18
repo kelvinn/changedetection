@@ -1,9 +1,8 @@
 import json
-import re
 from .base_spider import BaseSpider
 
 
-TITLE_SELECTOR = "#product-container > div:nth-child(2) > div > div.col-xs-12.col-md-4.product-buy-wrapper > div.product-title > h1 > span:nth-child(2)"
+TITLE_SELECTOR = "#product-container > div:nth-child(2) > div > div.col-xs-12.col-md-4.product-buy-wrapper > div.product-title > h1 > span:nth-child(2)"  # noqa
 PRICE_SELECTOR = "#js-product-information-price > div > span > span > span"
 
 
