@@ -25,4 +25,4 @@ class PatagoniaSpider(BaseSpider):
         price_std = float(response.css(PRICE_STD_SELECTOR).re_first("[-+]?\d*\.\d+|\d+") or 0)
         price_not_sale = float(response.css(PRICE_NOT_SALE_SELECTOR).re_first("[-+]?\d*\.\d+|\d+") or 0)
         prices = [price for price in [price_sale, price_min, price_max, price_std, price_not_sale] if price > 0]
-        return min(prices) if len(prices) > 1 else 0
+        return min(prices) if len(prices) > 0 else 0
