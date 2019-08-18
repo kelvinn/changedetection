@@ -37,6 +37,9 @@ ITEM_PIPELINES = {
     'price_monitor.pipelines.MongoDBPipeline': 400,
 }
 
+ROBOTSTXT_OBEY = False
+
+DOWNLOAD_TIMEOUT = 30
 
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
 
