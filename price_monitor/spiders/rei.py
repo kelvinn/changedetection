@@ -1,3 +1,5 @@
+import json
+import re
 from .base_spider import BaseSpider
 
 
@@ -10,9 +12,15 @@ class ReiSpider(BaseSpider):
 
     # main > main > div > div.product-details > div.product-details__main-column > form > p.product-details__price > em
 
+    def get_price(self, product):
+        offers = product.get('offers')
+        return min([float(offer.get('price')) for offer in offers if offer.get('availability') == "https://schema.org/InStock"])
+
     def parse(self, response):
+        product = json.loads(response.xpath('//script[@type="application/ld+json"]//text()').extract_first())
+
         item = response.meta.get('item', {})
         item['url'] = response.url
-        item['title'] = response.css(TITLE_SELECTOR).extract_first("").strip()
-        item['price'] = float(response.css(PRICE_SELECTOR).re_first("[-+]?\d*\.\d+|\d+") or 0)
+        item['title'] = product.get('name')
+        item['price'] = self.get_price(product) or 0
         yield item
