@@ -41,6 +41,10 @@ ROBOTSTXT_OBEY = False
 
 DOWNLOAD_TIMEOUT = 30
 
+DOWNLOAD_DELAY = 1
+
+COOKIES_ENABLED = False
+
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
 
 AUTOTHROTTLE_ENABLED = True
