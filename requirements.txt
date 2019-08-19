@@ -3,6 +3,8 @@ redis
 pyyaml
 responses
 yamllint
+
+# Below are all for Scrapy
 scrapy
 boto
 extruct
@@ -13,3 +15,5 @@ shub
 pymongo
 dnspython
 msgpack-python
+scrapy-useragents
+scrapy-rotating-proxies

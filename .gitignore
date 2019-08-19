@@ -2,3 +2,4 @@ __pycache__
 .serverless
 project.egg-info
 .env
+.scrapy
