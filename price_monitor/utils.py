@@ -1,5 +1,6 @@
 import json
 import pkgutil
+import requests
 from datetime import datetime, timedelta
 
 
@@ -33,3 +34,10 @@ def get_retailers_for_product(product_name):
         pkgutil.get_data("price_monitor", "resources/urls.json").decode()
     )
     return {get_retailer_name_from_url(url) for url in data[product_name]}
+
+
+def get_proxy_list():
+    r = requests.get('https://api.nordvpn.com/server')
+    response = r.json()
+    servers = [server for server in response if server['features']['proxy'] is True]
+    return [server.get('domain') for server in servers]
