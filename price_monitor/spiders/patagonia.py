@@ -21,7 +21,7 @@ class PatagoniaSpider(BaseSpider):
         yield item
 
     def get_price(self, response):
-        price_sale = float(response.css(PRICE_SALE_SELECTOR).re_first() or 0)
+        price_sale = float(response.css(PRICE_SALE_SELECTOR).re_first(PRICE_REGEX) or 0)
         price_min = float(response.css(PRICE_MIN_SELECTOR).re_first(PRICE_REGEX) or 0)
         price_max = float(response.css(PRICE_MAX_SELECTOR).re_first(PRICE_REGEX) or 0)
         price_std = float(response.css(PRICE_STD_SELECTOR).re_first(PRICE_REGEX) or 0)
