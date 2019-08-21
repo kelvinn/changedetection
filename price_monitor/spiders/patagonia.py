@@ -1,6 +1,6 @@
 from .base_spider import BaseSpider
 
-TITLE_SELECTOR = "#pdpMain > div > div.product-detail > h1"
+TITLE_SELECTOR = "#pdpMain > div > div.product-detail > h1::text"
 PRICE_STD_SELECTOR = "#pdpMain > div > div.product-detail > div.price-holder.mobile > div > span.price-standard"
 PRICE_SALE_SELECTOR = "#pdpMain > div > div.product-detail > div.price-holder.mobile > div > span.price-sales"
 PRICE_MIN_SELECTOR = "#pdpMain > div > div.product-detail > div.price-holder.mobile > div > div > span.min-price"
