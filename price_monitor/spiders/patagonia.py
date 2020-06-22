@@ -1,8 +1,8 @@
 from .base_spider import BaseSpider
 
-TITLE_SELECTOR = "#pdpMain > div > div.product-detail > h1::text"
-PRICE_STD_SELECTOR = "#pdpMain > div > div.product-detail > div.price-holder.mobile > div > span.price-standard"
-PRICE_SALE_SELECTOR = "#pdpMain > div > div.product-detail > div.price-holder.mobile > div > span.price-sales"
+TITLE_SELECTOR = "#product-title::text"
+PRICE_STD_SELECTOR = "#hero-pdp__buy > div > div.buy-config__title.sk-init.sk-viewport-in.sk-show-first.sk-show-complete > div > span.js-buy-config-price.buy-config-price > div > span > span > span"
+PRICE_SALE_SELECTOR = "#hero-pdp__buy > div > div.buy-config-attributes > div > div:nth-child(1) > div > div > div > a:nth-child(1) > div > div.product-tile__meta > div > div > div > div > span > span > span"
 PRICE_MIN_SELECTOR = "#pdpMain > div > div.product-detail > div.price-holder.mobile > div > div > span.min-price"
 PRICE_MAX_SELECTOR = "#pdpMain > div > div.product-detail > div.price-holder.mobile > div > div > span.max-price"
 PRICE_NOT_SALE_SELECTOR = "#product-content > div.product-price.desktop > span"

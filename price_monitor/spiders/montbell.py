@@ -15,5 +15,8 @@ class MontbellSpider(BaseSpider):
         item = response.meta.get('item', {})
         item['url'] = response.url
         item['title'] = response.css(TITLE_SELECTOR).extract_first("").strip()
-        item['price'] = float(response.css(PRICE_SELECTOR).re_first(PRICE_REGEX) or 0)
+        item['price'] = self.get_price(response)
         yield item
+
+    def get_price(self, response):
+        return float(response.css(PRICE_SELECTOR).re_first(PRICE_REGEX) or 0)
