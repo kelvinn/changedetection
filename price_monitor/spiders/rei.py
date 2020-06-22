@@ -13,7 +13,8 @@ class ReiSpider(BaseSpider):
 
     def get_price(self, product):
         offers = product.get('offers')
-        return min([float(offer.get('price')) for offer in offers if offer.get('availability') == "https://schema.org/InStock"])
+        return min([float(offer.get('price')) for offer in offers if
+                    offer.get('availability') == "https://schema.org/InStock"], default=0)
 
     def parse(self, response):
         product = json.loads(response.xpath('//script[@type="application/ld+json"]//text()').extract_first())

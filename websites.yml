@@ -5,25 +5,19 @@ pushover:
 
 websites:
 
-  - title: Pat Thermal Weight - $119
-    url: https://www.patagonia.com/product/mens-capilene-thermal-weight-zip-neck-hoody/43667.html
-    text: $119.00
-    action: remove
-    delay: 5
-
   - title: Pat Thermal Weight - Web Specials - Cap Thermal Weight
     url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
     text: Cap Thermal Weight
     action: added
     delay: 5
 
-  - title: Pat Thermal Weight - Web Specials - Air Hoody
+  - title: Pat - Web Specials - Air Hoody
     url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
     text: Air Hoody
     action: added
     delay: 5
 
-  - title: Pat Thermal Weight - Web Specials - Air Shed
+  - title: Pat  Web Specials - Air Shed
     url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
     text: Airshed
     action: added

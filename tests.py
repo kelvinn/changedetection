@@ -18,6 +18,7 @@ scraper_test_criteria = [
     (r'data/backcountry_detail.html', 299.99, backcountry.BackcountrySpider()),
     (r'data/rei_detail.html', 98.83, rei.ReiSpider()),
     (r'data/rei_detail_std.html', 149.0, rei.ReiSpider()),
+    (r'data/rei_detail_inreach.html', 0, rei.ReiSpider()),
     (r'data/trekkinn_detail.html', 165.99, trekkinn.TrekkinnSpider())
 ]
 
