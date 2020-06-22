@@ -6,7 +6,6 @@ services:
   - redis
 
 install:
-  - pip uninstall typing
   - pip install -r requirements.txt
 
 script:

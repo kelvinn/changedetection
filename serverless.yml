@@ -123,3 +123,5 @@ plugins:
 custom:
   pythonRequirements:
     dockerizePip: non-linux
+    noDeploy:
+    - typing
