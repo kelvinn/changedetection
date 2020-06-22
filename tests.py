@@ -1,9 +1,7 @@
 import unittest
 
 import responses
-import os
 from datetime import datetime
-from scrapy.selector import Selector
 from scrapy.http import Request, TextResponse
 from main import search, back_off, cache, send, Config, run, config
 from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkinn
@@ -32,7 +30,6 @@ class ScraperSubtest(unittest.TestCase):
                 with open(filename) as f:
                     sample = f.read()
 
-                html = Selector(text=sample)
                 url = 'http://www.example.com'
                 response = TextResponse(url=url, request=Request(url=url), body=sample,
                                         encoding='utf-8')
