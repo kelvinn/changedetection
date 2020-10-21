@@ -14,6 +14,8 @@ PRICE_REGEX = "[-+]?\d*\.\d+|\d+"  # noqa
 
 class PatagoniaSpider(CrawlSpider):
     name = "patagonia.com"
+    link_extractor = LinkExtractor()
+
     allowed_domains = ['www.patagonia.com']
     base_url = "https://www.patagonia.com/"
     start_urls = [

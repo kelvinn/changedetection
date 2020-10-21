@@ -89,7 +89,7 @@ def run(event=None, context=None):
 
 
 def scrape(event=None, context=None):
-    spiders = [amazon.AmazonSpider, montbell.MontbellSpider, rei.ReiSpider, patagonia.PatagoniaSpider]
+    spiders = [montbell.MontbellSpider, rei.ReiSpider, patagonia.PatagoniaSpider]
     process = CrawlerProcess(get_project_settings())
 
     for spider in spiders:

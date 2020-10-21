@@ -13,6 +13,7 @@ PRICE_REGEX = "[-+]?\d*\.\d+|\d+"  # noqa
 
 class BackcountrySpider(CrawlSpider):
     name = "backcountry.com"
+    link_extractor = LinkExtractor()
 
     allowed_domains = ['www.backcountry.com']
     base_url = "https://www.backcountry.com/"
