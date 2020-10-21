@@ -1,5 +1,6 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
+from scrapy import Request
 
 TITLE_SELECTOR = "#main > main > div > div.product-details > div.product-details__main-column > form > h1::text"
 PRICE_SELECTOR = "#main > main > div > div.product-details > div.product-details__main-column > form > p.product-details__price > em"  # noqa

@@ -1,5 +1,6 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
+from scrapy import Request
 
 TITLE_SELECTOR = "#product-title::text"
 PRICE_STD_SELECTOR = "#hero-pdp__buy > div > div.buy-config__title.sk-init.sk-viewport-in.sk-show-first.sk-show-complete > div > span.js-buy-config-price.buy-config-price > div > span > span > span"
@@ -17,12 +18,17 @@ class PatagoniaSpider(CrawlSpider):
     base_url = "https://www.patagonia.com/"
     start_urls = [
         'https://www.patagonia.com/product/mens-capilene-thermal-weight-bottoms/43687.html',
-        'https://www.patagonia.com/'
+        'https://www.patagonia.com/',
+        'https://www.patagonia.com.au/collections/jacket-vest-mens'
     ]
 
     rules = [
-        Rule(LinkExtractor(), callback='parse_detail_page', follow=True),
+        Rule(LinkExtractor(), callback='parse', follow=True),
     ]
+
+    def parse(self, response):
+        for link in self.link_extractor.extract_links(response):
+            yield Request(link.url, callback=self.parse_detail_page)
 
     def parse_detail_page(self, response):
         item = response.meta.get('item', {})

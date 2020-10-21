@@ -1,5 +1,6 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
+from scrapy import Request
 
 BRAND_SELECTOR = "body > div.body-wrap > div > article > div.product-overview.js-product-overview > section.product-buybox.js-product-buybox.qa-product-buybox > div.product-buybox-intro > h1 > span::text"  # noqa
 TITLE_SELECTOR = "body > div.body-wrap > div > article > div.product-overview.js-product-overview > section.product-buybox.js-product-buybox.qa-product-buybox > div.product-buybox-intro > h1::text"  # noqa
@@ -14,10 +15,19 @@ class BackcountrySpider(CrawlSpider):
     name = "backcountry.com"
 
     allowed_domains = ['www.backcountry.com']
+    base_url = "https://www.backcountry.com/"
+    start_urls = [
+        'https://www.backcountry.com/mens-footwear?fl=true',
+        'https://www.backcountry.com/hike-camp?activity=true&fl=true'
+    ]
 
     rules = [
-        Rule(LinkExtractor(), callback='parse_detail_page', follow=True),
+        Rule(LinkExtractor(), callback='parse', follow=True),
     ]
+
+    def parse(self, response):
+        for link in self.link_extractor.extract_links(response):
+            yield Request(link.url, callback=self.parse_detail_page)
 
     def parse_detail_page(self, response):
         item = response.meta.get('item', {})
