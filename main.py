@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import hashlib
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from price_monitor.spiders import amazon, montbell, rei, ebay, patagonia
+from price_monitor.spiders import amazon, montbell, rei, patagonia
 
 
 REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
@@ -89,7 +89,7 @@ def run(event=None, context=None):
 
 
 def scrape(event=None, context=None):
-    spiders = [amazon.AmazonSpider, montbell.MontbellSpider, rei.ReiSpider, ebay.EbaySpider, patagonia.PatagoniaSpider]
+    spiders = [amazon.AmazonSpider, montbell.MontbellSpider, rei.ReiSpider, patagonia.PatagoniaSpider]
     process = CrawlerProcess(get_project_settings())
 
     for spider in spiders:

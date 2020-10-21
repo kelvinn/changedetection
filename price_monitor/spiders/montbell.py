@@ -18,10 +18,10 @@ class MontbellSpider(CrawlSpider):
     ]
 
     rules = [
-        Rule(LinkExtractor(), callback='parse', follow=True),
+        Rule(LinkExtractor(), callback='parse_detail_page', follow=True),
     ]
 
-    def parse(self, response):
+    def parse_detail_page(self, response):
         item = response.meta.get('item', {})
         item['url'] = response.url
         item['title'] = response.css(TITLE_SELECTOR).extract_first("").strip()

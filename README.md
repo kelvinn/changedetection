@@ -1,5 +1,7 @@
 # Background
 
+[![Build Status](https://travis-ci.org/kelvinn/changedetection.svg?branch=master)](https://travis-ci.org/kelvinn/changedetection)
+
 Some random things I'm using to track prices of things I may want to buy.
 
 # Details for myself later

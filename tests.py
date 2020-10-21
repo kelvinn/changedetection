@@ -35,7 +35,7 @@ class ScraperSubtest(unittest.TestCase):
                 response = TextResponse(url=url, request=Request(url=url), body=sample,
                                         encoding='utf-8')
 
-                parsed = spider.parse(response)
+                parsed = spider.parse_detail_page(response)
                 self.assertEqual(expected_price, parsed['price'])
 
 class AppTestCase(unittest.TestCase):
