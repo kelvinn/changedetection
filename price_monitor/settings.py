@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
 import json
-from .utils import get_proxy_list
 
 
 BOT_NAME = 'price_monitor'
@@ -32,8 +31,8 @@ COOKIES_ENABLED = True
 BOT_NAME = 'Outdoor Price Monitor Side Project - kelvin@kelvinism.com'
 
 DOWNLOADER_MIDDLEWARES = {
-   'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': 100,
-   'scrapy_useragents.downloadermiddlewares.useragents.UserAgentsMiddleware': 500,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': 100,
+    'scrapy_useragents.downloadermiddlewares.useragents.UserAgentsMiddleware': 500,
 }
 
 USER_AGENTS = [
@@ -65,7 +64,7 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 2
 AUTOTHROTTLE_ENABLED = True
 HTTPCACHE_ENABLED = False
 
-### Set Environment Variables
+# Set Environment Variables
 
 MONGODB_DB = os.getenv('MONGODB_DB', 'scrapy')
 MONGODB_COLLECTION = os.getenv('MONGODB_COLLECTION', "price_monitor")

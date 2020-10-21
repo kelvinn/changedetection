@@ -56,3 +56,4 @@ jobs:
         REDIS_HOST: redis
         # The default Redis port
         REDIS_PORT: 6379
+        REDIS_URL: 'redis://redis:6379/0'
