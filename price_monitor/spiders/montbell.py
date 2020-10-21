@@ -1,4 +1,3 @@
-from .base_spider import BaseSpider
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 
@@ -14,6 +13,7 @@ class MontbellSpider(CrawlSpider):
     base_url = "https://www.montbell.us/"
     start_urls = [
         'https://www.montbell.us/products/index.php?cat_id=2&gen_cd=1',
+        'https://www.montbell.us/products/list.php?cat_id=25145&gen_cd=1',
         'https://www.montbell.us/'
     ]
 
