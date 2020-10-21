@@ -36,7 +36,7 @@ class ScraperSubtest(unittest.TestCase):
                                         encoding='utf-8')
 
                 parsed = spider.parse(response)
-                self.assertEqual(expected_price, next(parsed)['price'])
+                self.assertEqual(expected_price, parsed['price'])
 
 class AppTestCase(unittest.TestCase):
 

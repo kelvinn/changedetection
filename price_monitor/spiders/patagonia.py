@@ -1,4 +1,5 @@
-from .base_spider import BaseSpider
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
 
 TITLE_SELECTOR = "#product-title::text"
 PRICE_STD_SELECTOR = "#hero-pdp__buy > div > div.buy-config__title.sk-init.sk-viewport-in.sk-show-first.sk-show-complete > div > span.js-buy-config-price.buy-config-price > div > span > span > span"
@@ -10,15 +11,20 @@ PRICE_NOT_SALE_SELECTOR = "#product-content > div.product-price.desktop > span"
 PRICE_REGEX = "[-+]?\d*\.\d+|\d+"  # noqa
 
 
-class PatagoniaSpider(BaseSpider):
+class PatagoniaSpider(CrawlSpider):
     name = "patagonia.com"
+    allowed_domains = ['www.patagonia.com']
+
+    rules = [
+        Rule(LinkExtractor(), callback='parse', follow=True),
+    ]
 
     def parse(self, response):
         item = response.meta.get('item', {})
         item['url'] = response.url
         item['title'] = response.css(TITLE_SELECTOR).extract_first("").strip()
         item['price'] = self.get_price(response)
-        yield item
+        return item
 
     def get_price(self, response):
         price_sale = float(response.css(PRICE_SALE_SELECTOR).re_first(PRICE_REGEX) or 0)

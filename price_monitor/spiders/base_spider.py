@@ -4,7 +4,7 @@ import scrapy
 from datetime import datetime
 
 
-class BaseSpider(scrapy.Spider):
+class BaseSpider(scrapy.spiders.CrawlSpider):
 
     def start_requests(self):
         products = json.loads(pkgutil.get_data('price_monitor', 'resources/urls.json').decode())

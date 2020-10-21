@@ -1,4 +1,5 @@
-from .base_spider import BaseSpider
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
 
 BRAND_SELECTOR = "body > div.body-wrap > div > article > div.product-overview.js-product-overview > section.product-buybox.js-product-buybox.qa-product-buybox > div.product-buybox-intro > h1 > span::text"  # noqa
 TITLE_SELECTOR = "body > div.body-wrap > div > article > div.product-overview.js-product-overview > section.product-buybox.js-product-buybox.qa-product-buybox > div.product-buybox-intro > h1::text"  # noqa
@@ -9,8 +10,14 @@ PRICE_INACTIVE_SELECTOR = """//*[@id="content"]/div/div[3]/section[2]/div[2]/spa
 PRICE_REGEX = "[-+]?\d*\.\d+|\d+"  # noqa
 
 
-class BackcountrySpider(BaseSpider):
+class BackcountrySpider(CrawlSpider):
     name = "backcountry.com"
+
+    allowed_domains = ['www.backcountry.com']
+
+    rules = [
+        Rule(LinkExtractor(), callback='parse', follow=True),
+    ]
 
     def parse(self, response):
         item = response.meta.get('item', {})
@@ -18,7 +25,7 @@ class BackcountrySpider(BaseSpider):
         brand = response.css(BRAND_SELECTOR).extract_first("").strip()
         item['title'] = f"""{brand} {response.css(TITLE_SELECTOR).extract_first("").strip()}"""
         item['price'] = self.get_price(response)
-        yield item
+        return item
 
     def get_price(self, response):
         price_sale = float(response.xpath(PRICE_SALE_SELECTOR).re_first(PRICE_REGEX) or 0)

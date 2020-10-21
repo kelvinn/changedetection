@@ -1,15 +1,20 @@
 import json
-from .base_spider import BaseSpider
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
 
 
 TITLE_SELECTOR = "#product-container > div:nth-child(2) > div > div.col-xs-12.col-md-4.product-buy-wrapper > div.product-title > h1 > span:nth-child(2)"  # noqa
 PRICE_SELECTOR = "#js-product-information-price > div > span > span > span"
 
 
-class ReiSpider(BaseSpider):
+class ReiSpider(CrawlSpider):
     name = "rei.com"
 
-    # main > main > div > div.product-details > div.product-details__main-column > form > p.product-details__price > em
+    allowed_domains = ['www.rei.com']
+
+    rules = [
+        Rule(LinkExtractor(), callback='parse', follow=True),
+    ]
 
     def get_price(self, product):
         offers = product.get('offers')
@@ -23,4 +28,4 @@ class ReiSpider(BaseSpider):
         item['url'] = response.url
         item['title'] = product.get('name')
         item['price'] = self.get_price(product) or 0
-        yield item
+        return item
