@@ -14,7 +14,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container: python:3.7.9
 
     # Service containers to run with `container-job`
     services:
@@ -22,6 +21,9 @@ jobs:
       redis:
         # Docker Hub image
         image: redis
+        ports:
+          # Opens tcp port 6379 on the host and service container
+          - 6379:6379
         # Set health checks to wait until redis has started
         options: >-
           --health-cmd "redis-cli ping"
@@ -54,13 +56,7 @@ jobs:
           REDIS_HOST: redis
           # The default Redis port
           REDIS_PORT: 6379
-          REDIS_URL: 'redis://redis:6379/0'
-
-
-  deploy:
-
-    runs-on: ubuntu-latest
-    container: node:10.16-jessie
+          REDIS_URL: 'redis://localhost:6379/0'
 
       - name: Deploy
         run: |
