@@ -21,7 +21,7 @@ class ReiSpider(CrawlSpider):
 
     rules = [
         Rule(LinkExtractor(allow=('product/')), callback='parse_detail_page', follow=True),
-        Rule(LinkExtractor(callback='parse', follow=True))
+        Rule(LinkExtractor(), callback='parse', follow=True)
     ]
 
     def get_price(self, product):
