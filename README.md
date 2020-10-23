@@ -1,6 +1,6 @@
 # Background
 
-[![Build Status](https://travis-ci.org/kelvinn/changedetection.svg?branch=master)](https://travis-ci.org/kelvinn/changedetection)
+![Python package](https://github.com/kelvinn/changedetection/workflows/Python%20package/badge.svg)
 
 Some random things I'm using to track prices of things I may want to buy.
 

@@ -30,6 +30,13 @@ class PatagoniaSpider(CrawlSpider):
     ]
 
     def parse_detail_page(self, response):
+        """ Define a contract that can be used.
+
+        @url https://www.patagonia.com/product/mens-tropic-comfort-hoody-ii/52124.html
+        @returns items 1 1
+        @returns requests 0 0
+        @scrapes url title price
+        """
         self.logger.info('Parse Detail Page function called on %s', response.url)
         item = response.meta.get('item', {})
         item['url'] = response.url
