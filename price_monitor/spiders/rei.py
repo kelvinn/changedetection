@@ -11,7 +11,7 @@ class ReiSpider(CrawlSpider):
     name = "rei.com"
     link_extractor = LinkExtractor()
 
-    allowed_domains = ['www.rei.com']
+    allowed_domains = ['rei.com']
     base_url = "https://www.rei.com/"
     start_urls = [
         'https://www.rei.com/product/141845/nemo-tensor-insulated-sleeping-pad',
@@ -20,7 +20,8 @@ class ReiSpider(CrawlSpider):
     ]
 
     rules = [
-        Rule(link_extractor, callback='parse', follow=True),
+        Rule(LinkExtractor(allow=('product/')), callback='parse_detail_page', follow=True),
+        Rule(LinkExtractor(callback='parse', follow=True))
     ]
 
     def get_price(self, product):
@@ -29,10 +30,6 @@ class ReiSpider(CrawlSpider):
         if offers:
             price = min([float(offer.get('price')) for offer in offers if offer.get('availability') == "https://schema.org/InStock"], default=0)
         return price
-
-    def parse(self, response):
-        for link in self.link_extractor.extract_links(response):
-            yield Request(link.url, callback=self.parse_detail_page)
 
     def parse_detail_page(self, response):
         try:

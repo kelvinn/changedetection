@@ -12,7 +12,7 @@ def cleanup():
 
 
 param_list = [('a', 'a'), ('a', 'b'), ('b', 'b')]
-scraper_test_criteria = [
+scraper_detail_page_test_criteria = [
     (r'data/montbell_detail.html', 329.0, montbell.MontbellSpider()),
     (r'data/patagonia_detail.html', 89.0, patagonia.PatagoniaSpider()),
     (r'data/backcountry_detail.html', 299.99, backcountry.BackcountrySpider()),
@@ -25,8 +25,8 @@ scraper_test_criteria = [
 
 class ScraperSubtest(unittest.TestCase):
 
-    def test_parse(self):
-        for filename, expected_price, spider in scraper_test_criteria:
+    def test_parse_detail_page(self):
+        for filename, expected_price, spider in scraper_detail_page_test_criteria:
             with self.subTest(filename):
                 with open(filename) as f:
                     sample = f.read()
@@ -38,6 +38,8 @@ class ScraperSubtest(unittest.TestCase):
                 parsed = spider.parse_detail_page(response)
                 self.assertEqual(expected_price, parsed['price'])
 
+
+# This is for just searching if text has changed.
 class AppTestCase(unittest.TestCase):
 
     def setUp(self):

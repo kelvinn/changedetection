@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import hashlib
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from price_monitor.spiders import amazon, montbell, rei, patagonia
+from price_monitor.spiders import montbell, rei, patagonia
 
 
 REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')

@@ -15,7 +15,7 @@ class BackcountrySpider(CrawlSpider):
     name = "backcountry.com"
     link_extractor = LinkExtractor()
 
-    allowed_domains = ['www.backcountry.com']
+    allowed_domains = ['backcountry.com']
     base_url = "https://www.backcountry.com/"
     start_urls = [
         'https://www.backcountry.com/mens-footwear?fl=true',
@@ -26,9 +26,10 @@ class BackcountrySpider(CrawlSpider):
         Rule(LinkExtractor(), callback='parse', follow=True),
     ]
 
-    def parse(self, response):
-        for link in self.link_extractor.extract_links(response):
-            yield Request(link.url, callback=self.parse_detail_page)
+    rules = [
+        Rule(LinkExtractor(allow=('skid')), callback='parse_detail_page', follow=True),
+        Rule(LinkExtractor(), callback='parse', follow=True)
+    ]
 
     def parse_detail_page(self, response):
         item = response.meta.get('item', {})

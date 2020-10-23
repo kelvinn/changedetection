@@ -12,7 +12,7 @@ class MontbellSpider(CrawlSpider):
     name = "montbell.us"
     link_extractor = LinkExtractor()
 
-    allowed_domains = ['www.montbell.us']
+    allowed_domains = ['montbell.us']
     base_url = "https://www.montbell.us/"
     start_urls = [
         'https://www.montbell.us/products/index.php?cat_id=2&gen_cd=1',
@@ -21,12 +21,9 @@ class MontbellSpider(CrawlSpider):
     ]
 
     rules = [
-        Rule(LinkExtractor(), callback='parse', follow=True),
+        Rule(LinkExtractor(allow=('disp.php')), callback='parse_detail_page', follow=True),
+        Rule(LinkExtractor(allow=(['list.php', 'index.php'])), callback='parse', follow=True)
     ]
-
-    def parse(self, response):
-        for link in self.link_extractor.extract_links(response):
-            yield Request(link.url, callback=self.parse_detail_page)
 
     def parse_detail_page(self, response):
         item = response.meta.get('item', {})

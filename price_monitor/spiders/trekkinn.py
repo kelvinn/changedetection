@@ -16,6 +16,8 @@ class TrekkinnSpider(CrawlSpider):
     allowed_domains = ['www.trekkinn.com']
     base_url = "https://www.trekkinn.com/"
     start_urls = [
+        'https://www.trekkinn.com/outdoor-mountain/mens-clothing-accessories/3142/s',
+        'https://www.trekkinn.com/outdoor-mountain/mens-clothing/3017/lf',
         'https://www.trekkinn.com/outdoor-mountain/mens-clothing-pants/11450/s',
         'https://www.trekkinn.com/outdoor-mountain/mens-shoes/3012/f'
     ]
@@ -23,10 +25,6 @@ class TrekkinnSpider(CrawlSpider):
     rules = [
         Rule(LinkExtractor(), callback='parse', follow=True),
     ]
-
-    def parse(self, response):
-        for link in self.link_extractor.extract_links(response):
-            yield Request(link.url, callback=self.parse_detail_page)
 
     def parse_detail_page(self, response):
         item = response.meta.get('item', {})

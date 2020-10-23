@@ -1,6 +1,6 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-from scrapy import Request
+
 
 TITLE_SELECTOR = "#product-title::text"
 PRICE_STD_SELECTOR = "#hero-pdp__buy > div > div.buy-config__title.sk-init.sk-viewport-in.sk-show-first.sk-show-complete > div > span.js-buy-config-price.buy-config-price > div > span > span > span"
@@ -16,23 +16,21 @@ class PatagoniaSpider(CrawlSpider):
     name = "patagonia.com"
     link_extractor = LinkExtractor()
 
-    allowed_domains = ['www.patagonia.com']
+    allowed_domains = ['patagonia.com']
     base_url = "https://www.patagonia.com/"
     start_urls = [
-        'https://www.patagonia.com/product/mens-capilene-thermal-weight-bottoms/43687.html',
-        'https://www.patagonia.com/',
-        'https://www.patagonia.com.au/collections/jacket-vest-mens'
+        'https://www.patagonia.com/product/mens-tropic-comfort-hoody-ii/52124.html',
+        'https://www.patagonia.com/shop/womens-jackets-vests'
+
     ]
 
     rules = [
-        Rule(LinkExtractor(), callback='parse', follow=True),
+        Rule(LinkExtractor(allow=('product/')), callback='parse_detail_page', follow=True),
+        Rule(LinkExtractor(allow=('shop/'), deny=('prefn1')), callback='parse', follow=True)
     ]
 
-    def parse(self, response):
-        for link in self.link_extractor.extract_links(response):
-            yield Request(link.url, callback=self.parse_detail_page)
-
     def parse_detail_page(self, response):
+        self.logger.info('Parse Detail Page function called on %s', response.url)
         item = response.meta.get('item', {})
         item['url'] = response.url
         item['title'] = response.css(TITLE_SELECTOR).extract_first("").strip()
