@@ -14,7 +14,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container: python:3.8.6
 
     # Service containers to run with `container-job`
     services:
@@ -55,20 +54,9 @@ jobs:
         # The default Redis port
         REDIS_PORT: 6379
         REDIS_URL: 'redis://redis:6379/0'
-
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Deploy to Serverless
-        run: |
-          bash scripts/deploy.sh
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    - name: Deploy
+      run: |
+        bash scripts/deploy.sh
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
