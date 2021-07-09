@@ -3,7 +3,7 @@ import unittest
 import responses
 from datetime import datetime
 from scrapy.http import Request, TextResponse
-from main import search, back_off, cache, send, Config, run, config
+from main import search, back_off, cache, send, run, config
 from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkinn
 
 
