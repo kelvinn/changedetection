@@ -98,5 +98,31 @@ def scrape(event=None, context=None):
     process.start()  # blocking call
 
 
+def beach_search(url):
+    session = requests.Session()
+    session.headers.update({'Accept': 'text/html',
+                            'User-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0'})
+
+    response = session.get(url)
+
+    s = response.text
+
+    # Check here if beach is clear
+
+    return response.status_code, True if response.status_code == 200 else False
+
+
+def run_beach_scrape(event=None, context=None):
+
+    url = "https://www.environment.nsw.gov.au/beachapp/OceanBulletin.xml"
+    text = "1234"
+
+    key = hashlib.sha224(f'{url + str(text)}'.encode()).hexdigest()
+
+    resp_code, found = beach_search(url, text)
+
+    return resp_code
+
+
 if __name__ == "__main__":
     run()

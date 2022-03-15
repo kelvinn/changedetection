@@ -3,7 +3,7 @@ import unittest
 import responses
 from datetime import datetime
 from scrapy.http import Request, TextResponse
-from main import search, back_off, cache, send, run, config
+from main import search, back_off, cache, send, run, config, beach_search
 from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkinn
 
 
@@ -105,6 +105,29 @@ class AppTestCase(unittest.TestCase):
 
         results = run()
         self.assertEqual(201, results[0])
+
+
+# This is for just searching if text has changed.
+class OceanScraperTestCase(unittest.TestCase):
+
+    def setUp(self):
+        cleanup()
+
+    def tearDown(self):
+        cleanup()
+
+    @responses.activate
+    def test_beach_search(self):
+        with open(r'data/OceanBulletin.xml') as f:
+            sample = f.read()
+
+        responses.add(responses.GET, 'https://www.environment.nsw.gov.au/beachapp/OceanBulletin.xml',
+                      body=sample, status=200)
+        result = beach_search(
+            'https://www.environment.nsw.gov.au/beachapp/OceanBulletin.xml'
+        )
+        self.assertTrue(result[1])
+
 
 
 if __name__ == '__main__':

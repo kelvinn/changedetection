@@ -1,0 +1,983 @@
+
+    <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xCal="urn:ietf:params:xml:ns:xcal" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:bw="http://www.environment.nsw.gov.au/beach/beachappnamespace.htm"><channel><generator>Office of Environment &amp; Heritage - Beachwatch</generator><ttl>60</ttl><language>en-au</language><title>Sydney ocean beaches Pollution Forecast
+    </title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><description>Sydney ocean beaches</description><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+    </atom:updated><bw:data><bw:weather>Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a></bw:weather><bw:winds>Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.</bw:winds><bw:rainfall>18mm in the previous 24 hours.</bw:rainfall><bw:airTemp>25</bw:airTemp><bw:oceanTemp>24</bw:oceanTemp><bw:swell>Easterly 1.5 metres.</bw:swell><bw:highTide>1.64 metres at 07:18</bw:highTide><bw:lowTide>0.48 metres at 14:00</bw:lowTide><bw:alert><![CDATA[Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+]]></bw:alert></bw:data><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Palm Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 04/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Ocean Road,<br />Palm Beach
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.59749,151.325147&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.59749 151.325147</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>04/03/2022</bw:dateSample><bw:address>Ocean Road, Palm Beach</bw:address><bw:latitude>-33.59749</bw:latitude><bw:longitude>151.325147</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Whale Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 26 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 04/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />The Strand,<br />Whale Beach
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.611494,151.331716&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.611494 151.331716</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 26 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>04/03/2022</bw:dateSample><bw:address>The Strand, Whale Beach</bw:address><bw:latitude>-33.611494</bw:latitude><bw:longitude>151.331716</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Avalon Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 04/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Barrenjoey Road,<br />Avalon
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.63587,151.332362&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.63587 151.332362</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>04/03/2022</bw:dateSample><bw:address>Barrenjoey Road, Avalon</bw:address><bw:latitude>-33.63587</bw:latitude><bw:longitude>151.332362</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Bilgola Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 04/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Bilgola Avenue,<br />Bilgola
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.64596,151.32792&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.64596 151.32792</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>04/03/2022</bw:dateSample><bw:address>Bilgola Avenue, Bilgola</bw:address><bw:latitude>-33.64596</bw:latitude><bw:longitude>151.32792</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Newport Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 04/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Barrenjoey Road,<br />Newport
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.653881,151.323436&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.653881 151.323436</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>04/03/2022</bw:dateSample><bw:address>Barrenjoey Road, Newport</bw:address><bw:latitude>-33.653881</bw:latitude><bw:longitude>151.323436</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Bungan Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled weekends and public holidays from 18 September 2021 until 24 April 2022. Patrolled 7 days during peak summer holidays. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 04/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Access via Bungan Head Rd,<br />Newport
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.66523,151.3209&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.66523 151.3209</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled weekends and public holidays from 18 September 2021 until 24 April 2022. Patrolled 7 days during peak summer holidays. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>04/03/2022</bw:dateSample><bw:address>Access via Bungan Head Rd, Newport</bw:address><bw:latitude>-33.66523</bw:latitude><bw:longitude>151.3209</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Mona Vale Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 04/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Surfview Road,<br />Mona Vale
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.67913,151.31403&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.67913 151.31403</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>04/03/2022</bw:dateSample><bw:address>Surfview Road, Mona Vale</bw:address><bw:latitude>-33.67913</bw:latitude><bw:longitude>151.31403</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Warriewood Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled weekends and public holidays from 18 September 2021 until 24 April 2022. Patrolled 7 days during the months of December, January and February - and during spring and autumn school holidays. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/3stars.PNG" /><br /><b>Address:</b><br />Narrabeen Park Parade,<br />Warriewood
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.691306,151.308778&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.691306 151.308778</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled weekends and public holidays from 18 September 2021 until 24 April 2022. Patrolled 7 days during the months of December, January and February - and during spring and autumn school holidays. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>***</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>Narrabeen Park Parade, Warriewood</bw:address><bw:latitude>-33.691306</bw:latitude><bw:longitude>151.308778</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Turimetta Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Narrabeen Park Parade,<br />Warriewood
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.697655,151.310771&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.697655 151.310771</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>Narrabeen Park Parade, Warriewood</bw:address><bw:latitude>-33.697655</bw:latitude><bw:longitude>151.310771</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Birdwood Park (Narrabeen Lagoon)</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Swimming area is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Poor<br />Water quality is often unsuitable for swimming. Before swimming during dry weather, ensure the water is free from signs of pollution such as discoloured water, odour and floating debris. Avoid swimming at all times following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/2stars.PNG" /><br /><b>Address:</b><br />Ocean Street,<br />Narrabeen
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.70392,151.30505&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.70392 151.30505</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Swimming area is not patrolled.]]></bw:patrolInfo><bw:bsg>Poor</bw:bsg><bw:bsgComment>Water quality is often unsuitable for swimming. Before swimming during dry weather, ensure the water is free from signs of pollution such as discoloured water, odour and floating debris. Avoid swimming at all times following rainfall.</bw:bsgComment><bw:starRating>**</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>Ocean Street, Narrabeen</bw:address><bw:latitude>-33.70392</bw:latitude><bw:longitude>151.30505</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>North Narrabeen Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br /><strong>Narrabeen Lagoon has recently opened. Swimming should be avoided for the remainder of the day due to the possibility of pollution.<br /></strong><br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />End of Malcolm Street,<br />Narrabeen
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.70604,151.30523&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.70604 151.30523</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[Narrabeen Lagoon has recently opened. Swimming should be avoided for the remainder of the day due to the possibility of pollution.&lt;br /&gt;]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>End of Malcolm Street, Narrabeen</bw:address><bw:latitude>-33.70604</bw:latitude><bw:longitude>151.30523</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Collaroy Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Access via Birdwood Avenue,<br />Collaroy
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.73269,151.30277&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.73269 151.30277</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>Access via Birdwood Avenue, Collaroy</bw:address><bw:latitude>-33.73269</bw:latitude><bw:longitude>151.30277</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Long Reef Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br /><strong>Dee Why Lagoon has recently opened. Swimming should be avoided for the remainder of the day due to the possibility of pollution.<br /></strong><br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Access via Pittwater Road,<br />Collaroy
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.74525,151.30593&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.74525 151.30593</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[Dee Why Lagoon has recently opened. Swimming should be avoided for the remainder of the day due to the possibility of pollution.&lt;br /&gt;]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>Access via Pittwater Road, Collaroy</bw:address><bw:latitude>-33.74525</bw:latitude><bw:longitude>151.30593</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Dee Why Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 28 August 2021 until 28 May 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Cnr Dee Why Parade &amp; The Strand,<br />Dee Why
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.75283,151.29728&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.75283 151.29728</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 28 August 2021 until 28 May 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>Cnr Dee Why Parade &amp; The Strand, Dee Why</bw:address><bw:latitude>-33.75283</bw:latitude><bw:longitude>151.29728</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>North Curl Curl Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br /><strong>Curl Curl Lagoon has recently opened. Swimming should be avoided for the remainder of the day due to the possibility of pollution.<br /></strong><br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/1star.PNG" /><br /><b>Address:</b><br />End of Huston Parade,<br />North Curl Curl
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.76696,151.29925&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.76696 151.29925</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[Curl Curl Lagoon has recently opened. Swimming should be avoided for the remainder of the day due to the possibility of pollution.&lt;br /&gt;]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>*</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>End of Huston Parade, North Curl Curl</bw:address><bw:latitude>-33.76696</bw:latitude><bw:longitude>151.29925</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>South Curl Curl Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Carrington Parade,<br />Curl Curl
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.77403,151.29292&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.77403 151.29292</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>Carrington Parade, Curl Curl</bw:address><bw:latitude>-33.77403</bw:latitude><bw:longitude>151.29292</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Freshwater Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 28 August 2021 until 28 May 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />End of Kooloora Avenue,<br />Freshwater
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.78164,151.29076&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.78164 151.29076</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 28 August 2021 until 28 May 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>End of Kooloora Avenue, Freshwater</bw:address><bw:latitude>-33.78164</bw:latitude><bw:longitude>151.29076</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Queenscliff Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/1star.PNG" /><br /><b>Address:</b><br />North Steyne,<br />Manly
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.78689,151.28874&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.78689 151.28874</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>*</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>North Steyne, Manly</bw:address><bw:latitude>-33.78689</bw:latitude><bw:longitude>151.28874</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>North Steyne Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled on weekends and public holidays between 18 September 2021 until 24 April 2022. Also patrolled 7 days during the Christmas school holidays.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />North Steyne,<br />Manly
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.79099,151.2878&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.79099 151.2878</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled on weekends and public holidays between 18 September 2021 until 24 April 2022. Also patrolled 7 days during the Christmas school holidays.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>North Steyne, Manly</bw:address><bw:latitude>-33.79099</bw:latitude><bw:longitude>151.2878</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>South Steyne Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days year round. Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />South Steyne,<br />Manly
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.79889,151.2903&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.79889 151.2903</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days year round. Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>South Steyne, Manly</bw:address><bw:latitude>-33.79889</bw:latitude><bw:longitude>151.2903</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Shelly Beach (Manly)</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Northern Ocean Beaches</category><category>Northern Beaches Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 10/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Bower Street,<br />Manly
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.800514,151.297668&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.800514 151.297668</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>10/03/2022</bw:dateSample><bw:address>Bower Street, Manly</bw:address><bw:latitude>-33.800514</bw:latitude><bw:longitude>151.297668</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Bondi Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney City Ocean Beaches</category><category>Waverley Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br /><strong>Sydney Water has advised of a sewage overflow nearby on 23 February 2022 which may have affected this site.  Recent Beachwatch testing indicates this overflow is no longer impacting water quality at this site. Contact Sydney Water on 13 20 90 for details. <br /></strong><br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days year round.
+
+Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 03/03/2022<img src="maps/3stars.PNG" /><br /><b>Address:</b><br />Queen Elizabeth Drive,<br />Bondi
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.89151,151.27761&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.89151 151.27761</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[Sydney Water has advised of a sewage overflow nearby on 23 February 2022 which may have affected this site.  Recent Beachwatch testing indicates this overflow is no longer impacting water quality at this site. Contact Sydney Water on 13 20 90 for details. &lt;br /&gt;]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days year round.
+
+Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>***</bw:starRating><bw:dateSample>03/03/2022</bw:dateSample><bw:address>Queen Elizabeth Drive, Bondi</bw:address><bw:latitude>-33.89151</bw:latitude><bw:longitude>151.27761</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Gordons Bay (East)</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney City Ocean Beaches</category><category>Randwick Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br /><strong>Sydney Water has advised of a sewage overflow nearby on 22 February 2022 which may affect this site. As a precaution, swimming should be avoided due to the possibility of pollution. Contact Sydney Water on 13 20 90 for details. <br /></strong><br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 03/03/2022<img src="maps/3stars.PNG" /><br /><b>Address:</b><br />Accessed via Coastal Walkway, Victory St,<br />Clovelly
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.915646,151.264558&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.915646 151.264558</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[Sydney Water has advised of a sewage overflow nearby on 22 February 2022 which may affect this site. As a precaution, swimming should be avoided due to the possibility of pollution. Contact Sydney Water on 13 20 90 for details. &lt;br /&gt;]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>***</bw:starRating><bw:dateSample>03/03/2022</bw:dateSample><bw:address>Accessed via Coastal Walkway, Victory St, Clovelly</bw:address><bw:latitude>-33.915646</bw:latitude><bw:longitude>151.264558</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Tamarama Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is likely
+              </category><category>Sydney City Ocean Beaches</category><category>Waverley Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is likely. Avoid swimming today.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 03/03/2022<img src="maps/1star.PNG" /><br /><b>Address:</b><br />Pacific Drive,<br />Tamarama
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.90056,151.270572&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.90056 151.270572</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is likely. Avoid swimming today.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>*</bw:starRating><bw:dateSample>03/03/2022</bw:dateSample><bw:address>Pacific Drive, Tamarama</bw:address><bw:latitude>-33.90056</bw:latitude><bw:longitude>151.270572</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Bronte Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is likely
+              </category><category>Sydney City Ocean Beaches</category><category>Waverley Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is likely. Avoid swimming today.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days year round.
+
+Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 03/03/2022<img src="maps/3stars.PNG" /><br /><b>Address:</b><br />Access via Bronte Rd,<br />Bronte
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.903069,151.268622&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.903069 151.268622</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is likely. Avoid swimming today.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days year round.
+
+Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>***</bw:starRating><bw:dateSample>03/03/2022</bw:dateSample><bw:address>Access via Bronte Rd, Bronte</bw:address><bw:latitude>-33.903069</bw:latitude><bw:longitude>151.268622</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Clovelly Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney City Ocean Beaches</category><category>Randwick Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022.
+
+Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 03/03/2022<img src="maps/3stars.PNG" /><br /><b>Address:</b><br />Donnellan Circuit,<br />Clovelly
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.914486,151.267505&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.914486 151.267505</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022.
+
+Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>***</bw:starRating><bw:dateSample>03/03/2022</bw:dateSample><bw:address>Donnellan Circuit, Clovelly</bw:address><bw:latitude>-33.914486</bw:latitude><bw:longitude>151.267505</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Coogee Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney City Ocean Beaches</category><category>Randwick Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br /><strong>Sydney Water has advised of a sewage overflow nearby on 22 February 2022 which may affect this site. As a precaution, swimming should be avoided due to the possibility of pollution. Contact Sydney Water on 13 20 90 for details. <br /></strong><br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days year round.
+
+Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Arden Street,<br />Coogee
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.92076,151.25817&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.92076 151.25817</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[Sydney Water has advised of a sewage overflow nearby on 22 February 2022 which may affect this site. As a precaution, swimming should be avoided due to the possibility of pollution. Contact Sydney Water on 13 20 90 for details. &lt;br /&gt;]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days year round.
+
+Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Arden Street, Coogee</bw:address><bw:latitude>-33.92076</bw:latitude><bw:longitude>151.25817</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Maroubra Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney City Ocean Beaches</category><category>Randwick Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days year round.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Marine Parade,<br />Maroubra
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.94879,151.25718&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.94879 151.25718</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days year round.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Marine Parade, Maroubra</bw:address><bw:latitude>-33.94879</bw:latitude><bw:longitude>151.25718</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Malabar Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney City Ocean Beaches</category><category>Randwick Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Fishermans Road,<br />Malabar
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.96436,151.252247&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.96436 151.252247</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Fishermans Road, Malabar</bw:address><bw:latitude>-33.96436</bw:latitude><bw:longitude>151.252247</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Little Bay Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney City Ocean Beaches</category><category>Randwick Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Access via Murra Murra Pl,<br />Little Bay
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-33.98012,151.25149&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-33.98012 151.25149</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Access via Murra Murra Pl, Little Bay</bw:address><bw:latitude>-33.98012</bw:latitude><bw:longitude>151.25149</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Boat Harbour</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Southern Ocean Beaches</category><category>Sutherland Shire Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Good<br />Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.<br /><b>Star rating:</b> From 18/02/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Sir Joseph Banks Drive,<br />Kurnell
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-34.03813,151.20073&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-34.03813 151.20073</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming for most of the time, but due to the presence of several potential sources of faecal contamination, swimming should be avoided following rainfall.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>18/02/2022</bw:dateSample><bw:address>Sir Joseph Banks Drive, Kurnell</bw:address><bw:latitude>-34.03813</bw:latitude><bw:longitude>151.20073</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Greenhills Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Southern Ocean Beaches</category><category>Sutherland Shire Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 01/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Bate Bay Road,<br />Kurnell
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-34.034407,151.184222&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-34.034407 151.184222</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>01/03/2022</bw:dateSample><bw:address>Bate Bay Road, Kurnell</bw:address><bw:latitude>-34.034407</bw:latitude><bw:longitude>151.184222</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Wanda Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Southern Ocean Beaches</category><category>Sutherland Shire Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Marine Esplanade,<br />Cronulla
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-34.04393,151.16205&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-34.04393 151.16205</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Marine Esplanade, Cronulla</bw:address><bw:latitude>-34.04393</bw:latitude><bw:longitude>151.16205</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Elouera Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Southern Ocean Beaches</category><category>Sutherland Shire Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022.
+
+Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Mitchell Road,<br />Cronulla
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-34.04661,151.15966&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-34.04661 151.15966</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022.
+
+Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Mitchell Road, Cronulla</bw:address><bw:latitude>-34.04661</bw:latitude><bw:longitude>151.15966</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>North Cronulla Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Southern Ocean Beaches</category><category>Sutherland Shire Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days from 18 September 2021 until 24 April 2022.
+
+Always check with lifeguards for the latest beach conditions.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Prince Street,<br />Cronulla
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-34.05101,151.15659&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-34.05101 151.15659</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days from 18 September 2021 until 24 April 2022.
+
+Always check with lifeguards for the latest beach conditions.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Prince Street, Cronulla</bw:address><bw:latitude>-34.05101</bw:latitude><bw:longitude>151.15659</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>South Cronulla Beach</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Southern Ocean Beaches</category><category>Sutherland Shire Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>Patrolled 7 days year round.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/4stars.PNG" /><br /><b>Address:</b><br />Gerrale Street,<br />Cronulla
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-34.05573,151.15548&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-34.05573 151.15548</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[Patrolled 7 days year round.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>****</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Gerrale Street, Cronulla</bw:address><bw:latitude>-34.05573</bw:latitude><bw:longitude>151.15548</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Shelly Beach (Sutherland)</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Southern Ocean Beaches</category><category>Sutherland Shire Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/3stars.PNG" /><br /><b>Address:</b><br />Ewos Parade,<br />Cronulla
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-34.06413,151.15555&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-34.06413 151.15555</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>***</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Ewos Parade, Cronulla</bw:address><bw:latitude>-34.06413</bw:latitude><bw:longitude>151.15555</bw:longitude></bw:data></item><item><pubDate>Tue, 15 Mar 2022 07:55:00 +1000</pubDate><lastBuildDate>Tue, 15 Mar 2022 07:55:00 +1000</lastBuildDate><atom:updated>2022-03-15T07:55:00+10:00
+      </atom:updated><title>Oak Park</title><link>http://www.environment.nsw.gov.au/beachapp/oceanbulletin.aspx</link><guid isPermaLink="false" /><category>
+                Pollution is possible
+              </category><category>Sydney Southern Ocean Beaches</category><category>Sutherland Shire Council</category><description><![CDATA[
+                Today's beach conditions
+              <br />
+                  Pollution is possible. Take care.
+                <br />
+              Weather: Partly cloudy. Medium chance of showers during the morning and afternoon.<a style="display:none;" data-bw-weather-image="sun-cloud" data-bw-weather-text="Possible shower"> </a><br />
+              Winds: Light becoming SE 15 to 25 km/h in the middle of the day then becoming light in the evening.<br />
+              Rainfall: 18mm in the previous 24 hours.<br />
+              Expected maximum temperature: 25<sup>o</sup>C
+              <br />
+              Ocean temperature:               24<sup>o</sup> C
+                <br />
+              Swell: Easterly 1.5 metres.<br />
+              High tide: 1.64 metres at 07:18<br />
+              Low tide: 0.48 metres at 14:00<br /><b>Alert: </b>Due to recent extreme wet weather conditions and flooding events, stormwater pollution may be impacting many swimming sites. Avoid swimming if you can see signs of pollution such as discoloured water and floating debris. Always check with lifeguards for latest beaches conditions.
+
+For information on beach closures please contact relevant authorities such as local councils.
+<br /><b>Patrol information:</b>This beach is not patrolled.<br /><br /><b>Annual beach suitability grade:</b>Very Good<br />Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.<br /><b>Star rating:</b> From 09/03/2022<img src="maps/3stars.PNG" /><br /><b>Address:</b><br />Jibbon Street,<br />Cronulla
+           <a href="http://maps.google.com/maps/api/staticmap?size=512x512&amp;zoom=14&amp;maptype=roadmap&amp;markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=swim%257CFFFF00%7C-34.070076,151.156927&amp;sensor=false" target="name">(map)</a>]]></description><georss:point>-34.070076 151.156927</georss:point><bw:data><bw:title>
+              Today's beach conditions
+            </bw:title><bw:advice>
+                  Pollution is possible. Take care.
+                </bw:advice><bw:update><![CDATA[]]></bw:update><bw:patrolInfo><![CDATA[This beach is not patrolled.]]></bw:patrolInfo><bw:bsg>Very Good</bw:bsg><bw:bsgComment>Water quality is suitable for swimming almost all of the time, with very few potential sources of faecal contamination.</bw:bsgComment><bw:starRating>***</bw:starRating><bw:dateSample>09/03/2022</bw:dateSample><bw:address>Jibbon Street, Cronulla</bw:address><bw:latitude>-34.070076</bw:latitude><bw:longitude>151.156927</bw:longitude></bw:data></item></channel></rss>
+
+
