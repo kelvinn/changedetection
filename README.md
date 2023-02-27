@@ -4,6 +4,12 @@
 
 Some random things I'm using to track prices of things I may want to buy.
 
+# Local dev prep
+
+* Install Redis (brew install redis)
+* pip install -r requirements.txt
+* python3 tests.py
+
 # Details for myself later
 
 * Get the CSS / xpath selectors by highlighting the item in Chrome and "Inspect"
