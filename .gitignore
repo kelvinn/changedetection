@@ -7,3 +7,4 @@ project.egg-info
 .venv38
 eggs-404627.zip
 .vscode
+node_modules
