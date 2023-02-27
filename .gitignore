@@ -2,6 +2,7 @@ __pycache__
 .serverless
 project.egg-info
 .env
+.venv
 .scrapy
 .venv38
 eggs-404627.zip
