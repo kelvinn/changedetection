@@ -6,14 +6,17 @@ Some random things I'm using to track prices of things I may want to buy.
 
 # Local dev prep
 
-* Install Redis (brew install redis)
 * pip install -r requirements.txt
-* python3 tests.py
+* bash scripts/test.py
 
-# Details for myself later
+# Deployment
+
+* Handled by Github Actions
+
+
+# Notes & Workarounds
 
 * Get the CSS / xpath selectors by highlighting the item in Chrome and "Inspect"
-* Auto-deploys via Travis
 * Can run on Scraping Hub with:
     * shub deploy
     * shub schedule [spider]
