@@ -72,8 +72,12 @@ def run(event=None, context=None):
     for website in config.websites:
         url, text, delay, action = website['url'], str(website['text']), website['delay'], website['action']
         key = hashlib.sha224(f'{url + str(text)}'.encode()).hexdigest()
-
-        resp_code, found = search(url, text)
+        try:
+            resp_code, found = search(url, text)
+        except Exception as e:
+            logging.info(f"Scraping {url} but got an error.")
+            logging.error(e)
+            continue
 
         if ((action == 'remove' and not found) or (action == 'added' and found)) and not back_off(key, delay):
             logging.info(f'Change found: {url, text, action} ')
