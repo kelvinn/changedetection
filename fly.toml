@@ -1,0 +1,18 @@
+# fly.toml app configuration file generated for changedetection-a32cf on 2023-10-06T07:29:47+11:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "changedetection-a32cf"
+primary_region = "syd"
+
+[build]
+
+[[services]]
+  protocol = ""
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  max_per_region = 1
+  processes = ["app"]
+

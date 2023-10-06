@@ -9,11 +9,10 @@ import hashlib
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from price_monitor.spiders import montbell, rei, patagonia
+from diskcache import Cache
 
 
-REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
-cache = redis.from_url(REDIS_URL)
-
+cache = Cache()
 
 class Config:
     def __init__(self):
@@ -65,7 +64,7 @@ def back_off(key, delay):
     past = datetime.now() - timedelta(days=delay)
 
     last_update = cache.get(key)
-    return False if not last_update or datetime.fromisoformat(last_update.decode()) < past else True
+    return False if not last_update or datetime.fromisoformat(last_update) < past else True
 
 
 def run(event=None, context=None):
