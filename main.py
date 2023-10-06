@@ -35,8 +35,13 @@ def search(url, text):
     session.headers.update({'Accept': 'text/html',
                             'User-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0'})
 
-    response = session.get(url)
-
+    try:
+        response = session.get(url)
+    except Exception as e:
+        logging.info(url)
+        logging.error(e)
+        return False
+    
     s = response.text
 
     return response.status_code, True if response.status_code == 200 and s.count(text) > 0 else False
