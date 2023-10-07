@@ -101,7 +101,7 @@ def run(event=None, context=None):
 def scrape(event=None, context=None):
     last_run = cache.get("scrapy_last_ran")
     now = datetime.now()
-    if not last_run or datetime.fromisoformat(now-timedelta(days=1)) > last_run:
+    if not last_run or now-timedelta(days=1) > last_run:
         cache.set("scrapy_last_ran", now)
 
         spiders = [montbell.MontbellSpider, rei.ReiSpider, patagonia.PatagoniaSpider]
