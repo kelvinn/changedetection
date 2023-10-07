@@ -2,7 +2,6 @@ import yaml
 import sys
 import os
 import requests
-import redis
 import logging
 from datetime import datetime, timedelta
 import hashlib
@@ -11,8 +10,9 @@ from scrapy.utils.project import get_project_settings
 from price_monitor.spiders import montbell, rei, patagonia
 from diskcache import Cache
 
+CACHE_DIR = os.getenv('CACHE_DIR', '/tmp/data')
 
-cache = Cache()
+cache = Cache(directory=CACHE_DIR)
 
 class Config:
     def __init__(self):
