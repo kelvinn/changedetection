@@ -99,13 +99,18 @@ def run(event=None, context=None):
 
 
 def scrape(event=None, context=None):
-    spiders = [montbell.MontbellSpider, rei.ReiSpider, patagonia.PatagoniaSpider]
-    process = CrawlerProcess(get_project_settings())
+    last_run = cache.get("scrapy_last_ran")
+    now = datetime.now()
+    if not last_run or datetime.fromisoformat(now-timedelta(days=1)) > last_run:
+        cache.set("scrapy_last_ran", now)
 
-    for spider in spiders:
-        process.crawl(spider)
+        spiders = [montbell.MontbellSpider, rei.ReiSpider, patagonia.PatagoniaSpider]
+        process = CrawlerProcess(get_project_settings())
 
-    process.start()  # blocking call
+        for spider in spiders:
+            process.crawl(spider)
+
+        process.start()  # blocking call
 
 
 def beach_search(url):
@@ -136,4 +141,4 @@ def run_beach_scrape(event=None, context=None):
 
 if __name__ == "__main__":
     run()
-    # Add scrape here
+    scrape()
