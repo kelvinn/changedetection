@@ -71,12 +71,6 @@ websites:
     action: removed
     delay: 5
 
-  - title: REI - Garmin inReach Mini
-    url: https://www.rei.com/product/140110/garmin-inreach-mini-2-way-satellite-communicator
-    text: $350.00
-    action: removed
-    delay: 5
-
   - title: REI - Therm-a-Rest NeoAir XLite
     url: https://www.rei.com/product/881598/therm-a-rest-neoair-xlite-sleeping-pad-womens
     text: $159.95
