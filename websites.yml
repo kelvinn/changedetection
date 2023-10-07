@@ -11,17 +11,17 @@ websites:
     action: added
     delay: 5
 
-  - title: Pat - Web Specials - Air Hoody
-    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
-    text: Air Hoody
-    action: added
-    delay: 5
+  # - title: Pat - Web Specials - Air Hoody
+  #   url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
+  #   text: Air Hoody
+  #   action: added
+  #   delay: 5
 
-  - title: Pat  Web Specials - Air Shed
-    url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
-    text: Airshed
-    action: added
-    delay: 5
+  # - title: Pat  Web Specials - Air Shed
+  #   url: https://www.patagonia.com/shop/web-specials-mens?start=0&sz=500#tile-1
+  #   text: Airshed
+  #   action: added
+  #   delay: 5
 
   - title: Mont-Bell Plasma 1000
     url: https://www.montbell.us/products/disp.php?cat_id=25010&p_id=2301460&gen_cd=1
@@ -71,11 +71,11 @@ websites:
     action: removed
     delay: 5
 
-  - title: REI - Therm-a-Rest NeoAir XLite
-    url: https://www.rei.com/product/881598/therm-a-rest-neoair-xlite-sleeping-pad-womens
-    text: $159.95
-    action: removed
-    delay: 5
+  # - title: REI - Therm-a-Rest NeoAir XLite
+  #   url: https://www.rei.com/product/881598/therm-a-rest-neoair-xlite-sleeping-pad-womens
+  #   text: $159.95
+  #   action: removed
+  #   delay: 5
 
   - title: MontBell Peak Dry
     url: https://www.montbell.us/products/disp.php?cat_id=25013&p_id=1128632&gen_cd=1

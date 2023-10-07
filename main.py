@@ -44,10 +44,8 @@ def search(url, text):
         except Exception as e:
             
             logging.error(e)
-            return 404, False # not ideal
+            return 406, False # not ideal
         
-        
-
     return response.status_code, True if response.status_code == 200 and s.count(text) > 0 else False
 
 
@@ -138,3 +136,4 @@ def run_beach_scrape(event=None, context=None):
 
 if __name__ == "__main__":
     run()
+    # Add scrape here

@@ -7,4 +7,4 @@ APP_NAME="changedetection-a32cf"
 
 docker build -t registry.fly.io/$APP_NAME:deployment-$TAG . --platform linux/amd64
 docker push registry.fly.io/$APP_NAME:deployment-$TAG
-fly machine update $MACHINE_ID --yes --image registry.fly.io/$APP_NAME:deployment-$TAG --schedule=hourly --metadata fly_process_group=app
+fly machine update $MACHINE_ID --yes --image registry.fly.io/$APP_NAME:deployment-$TAG --schedule=daily --metadata fly_process_group=app
