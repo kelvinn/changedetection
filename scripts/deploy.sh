@@ -9,6 +9,7 @@ APP_NAME="changedetection-a32cf"
 # docker push registry.fly.io/$APP_NAME:deployment-$TAG
 # fly machine update $MACHINE_ID --yes --image registry.fly.io/$APP_NAME:deployment-$TAG --schedule=daily --metadata fly_process_group=app
 fly deploy --wait-timeout 240
+fly scale count 1 --yes --process-group worker
 
 MACHINE_ID=$(fly machine list --json | jq -r -c '.[] | select(.config | .metadata | .fly_process_group | contains("worker")) | .id')
 fly machine update $MACHINE_ID --yes --schedule=daily --metadata fly_process_group=worker
