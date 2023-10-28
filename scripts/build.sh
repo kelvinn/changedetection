@@ -3,7 +3,7 @@
 # Abort the script if any command fails
 set -e
 
-python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
 pip install flake8 pytest
 if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 

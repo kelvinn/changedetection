@@ -42,3 +42,6 @@ class ReiSpider(CrawlSpider):
             return item
         except TypeError:
             return None
+
+    def parse(self, response):
+        self.log(f"Need to create a rule for {response.url}")

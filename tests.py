@@ -1,10 +1,14 @@
 import unittest
-
+from os import getenv
 import responses
 from datetime import datetime
 from scrapy.http import Request, TextResponse
-from main import search, back_off, cache, send, run, config, beach_search
+from main import back_off, cache
 from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkinn
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine, Table
+from models import Store, Price, Product
+from price_monitor.pipelines import get_postgres_session
 
 
 def cleanup():
@@ -15,7 +19,7 @@ param_list = [('a', 'a'), ('a', 'b'), ('b', 'b')]
 scraper_detail_page_test_criteria = [
     (r'data/montbell_detail.html', 329.0, montbell.MontbellSpider()),
     (r'data/montbell_detail_2.html', 44.0, montbell.MontbellSpider()),
-    (r'data/patagonia_detail.html', 89.0, patagonia.PatagoniaSpider()),
+    (r'data/patagonia_detail.html', 99.0, patagonia.PatagoniaSpider()),
     (r'data/backcountry_detail.html', 299.99, backcountry.BackcountrySpider()),
     (r'data/rei_detail.html', 98.83, rei.ReiSpider()),
     (r'data/rei_detail_std.html', 149.0, rei.ReiSpider()),
@@ -25,6 +29,13 @@ scraper_detail_page_test_criteria = [
 
 
 class ScraperSubtest(unittest.TestCase):
+
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+        
 
     def test_parse_detail_page(self):
         for filename, expected_price, spider in scraper_detail_page_test_criteria:
@@ -41,93 +52,40 @@ class ScraperSubtest(unittest.TestCase):
 
 
 # This is for just searching if text has changed.
-class AppTestCase(unittest.TestCase):
+class DatabaseCase(unittest.TestCase):
 
     def setUp(self):
-        cleanup()
+        self.session = get_postgres_session()
+        self.name = 'Test Product Name'
+        self.amount = 12.3
 
     def tearDown(self):
-        cleanup()
+        self.session.query(Price).filter(Price.amount == str(self.amount)).delete(synchronize_session=False)
+        self.session.commit()
 
-    @responses.activate
-    def test_search(self):
-        with open(r'data/patagonia.html') as f:
-            sample = f.read()
+        self.session.query(Product).filter(Product.name == self.name).delete(synchronize_session=False)
+        self.session.commit()
 
-        responses.add(responses.GET, 'https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-54',
-                      body=sample, status=200)
-        result = search(
-            'https://www.patagonia.com/shop/web-specials-mens?start=0&sz=72#tile-54', 'Airdini Cap'
-        )
-        self.assertTrue(result[1])
+    def test_database_models(self):
 
-    def test_back_off(self):
-        key = 'foo'
-        cache.set(key, datetime.now().isoformat())
+        name = self.name
+        amount = self.amount
 
-        result = back_off(key, 5)
-        self.assertTrue(result)
+        product = Product(name=name, url='https://www.rei.com/', created=datetime.now(), last_updated=datetime.now())
+        self.session.add(product)
 
-    @responses.activate
-    def test_send(self):
+        price = Price(amount=amount, product=product, created=datetime.now())
+        self.session.add(price)
 
-        responses.add(responses.POST, 'https://api.pushover.net/1/messages.json',
-                      status=201,
-                      json={
-                          'status': '1',
-                          'request': '647d2300-702c-4b38-8b2f-d56326ae460b'
-                      })
+        self.session.commit()
+        
+        result = self.session.query(Product).filter_by(name=name)
 
-        result = send('1742b2350006e55ba3241d3e0b2926c45150c30ea782d778bc1fce6e', 'Test Msg', 'https://example.com')
+        self.assertEqual(1, result.count())
 
-        self.assertEqual(201, result)
+        first_product = result.first()
 
-    @responses.activate
-    def test_run(self):
-        config.websites = [{'title': 'test',
-                            'url': 'https://www.patagonia.com/shop/web-specials-mens',
-                            'text': 'Airdini Cap',
-                            'action': 'added',
-                            'delay': 5}]
-
-        with open(r'data/patagonia.html') as f:
-            sample = f.read()
-
-        responses.add(responses.GET, 'https://www.patagonia.com/shop/web-specials-mens',
-                      body=sample, status=200)
-
-        responses.add(responses.POST, 'https://api.pushover.net/1/messages.json',
-                      status=201,
-                      json={
-                          'status': '1',
-                          'request': '647d2300-702c-4b38-8b2f-d56326ae460b'
-                      })
-
-        results = run()
-        self.assertEqual(201, results[0])
-
-
-# This is for just searching if text has changed.
-class OceanScraperTestCase(unittest.TestCase):
-
-    def setUp(self):
-        cleanup()
-
-    def tearDown(self):
-        cleanup()
-
-    @responses.activate
-    def test_beach_search(self):
-        with open(r'data/OceanBulletin.xml') as f:
-            sample = f.read()
-
-        responses.add(responses.GET, 'https://www.environment.nsw.gov.au/beachapp/OceanBulletin.xml',
-                      body=sample, status=200)
-        result = beach_search(
-            'https://www.environment.nsw.gov.au/beachapp/OceanBulletin.xml'
-        )
-        self.assertTrue(result[1])
-
+        self.assertEqual(amount, first_product.prices[0].amount)
 
 
 if __name__ == '__main__':

@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
-import pymongo
-from price_monitor import settings
-from price_monitor.utils import reversed_timestamp, get_product_names
-from scrapy.exceptions import DropItem
+from datetime import datetime
+from os import getenv
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine
+from models import Price, Product
 
+
+def get_postgres_session():
+    DATABASE_URL = getenv('DATABASE_URL', 'postgresql://postgres:postgres@localhost/changedetection')
+    engine = create_engine(DATABASE_URL)
+    Session = sessionmaker(bind=engine)
+    session = Session()
+    return session
 
 class CollectionStoragePipeline(object):
 
@@ -11,20 +19,30 @@ class CollectionStoragePipeline(object):
         return item
 
 
-class MongoDBPipeline(object):
+class PostgresPipeline:
 
     def __init__(self):
-        connection = pymongo.MongoClient(settings.MONGODB_CONNECTION_URL)
-        db = connection[settings.MONGODB_DB]
-        self.collection = db[settings.MONGODB_COLLECTION]
-
+        ## Connection Details
+        self.session = get_postgres_session()
+    
     def process_item(self, item, spider):
 
-        valid = True
-        for data in item:
-            if not data:
-                valid = False
-                raise DropItem("Missing {0}!".format(data))
-        if valid:
-            self.collection.insert(dict(item))
+        product = self.session.query(Product).filter_by(url=item.get('url')).one_or_none()
+
+        # Create the product if it does not already exist
+        if not product:
+            product = Product(name=item.get('title'), 
+                            url=item.get('url'), 
+                            created=datetime.now(), 
+                            last_updated=datetime.now()
+                            )
+
+            self.session.add(product)
+
+        price = Price(amount=item.get('price'), product=product, created=datetime.now())
+
+        self.session.add(price)
+
+        self.session.commit()
+
         return item

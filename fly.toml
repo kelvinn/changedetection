@@ -8,6 +8,9 @@ primary_region = "syd"
 
 [build]
 
+[deploy]
+  release_command = "alembic upgrade head"
+
 [processes]
   worker = "python main.py"
 

@@ -19,7 +19,7 @@ if 'SHUB_SETTINGS' in os.environ:
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'price_monitor.pipelines.CollectionStoragePipeline': 400,
-    'price_monitor.pipelines.MongoDBPipeline': 400,
+    'price_monitor.pipelines.PostgresPipeline': 400,
 }
 
 ROBOTSTXT_OBEY = False
@@ -64,10 +64,5 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 2
 AUTOTHROTTLE_ENABLED = True
 HTTPCACHE_ENABLED = True
 HTTPCACHE_EXPIRATION_SECS = 86400
-
-
-# Set Environment Variables
-
-MONGODB_DB = os.getenv('MONGODB_DB', 'scrapy')
-MONGODB_COLLECTION = os.getenv('MONGODB_COLLECTION', "price_monitor")
-MONGODB_CONNECTION_URL = os.getenv('MONGODB_CONNECTION_URL', 'mongodb://scrapy:password@localhost')
+HTTPCACHE_ALWAYS_STORE = True
+HTTPCACHE_IGNORE_RESPONSE_CACHE_CONTROLS = ["no-store", "no-cache", "must-revalidate"]

@@ -45,3 +45,6 @@ class BackcountrySpider(CrawlSpider):
         price_std = float(response.xpath(PRICE_STD_SELECTOR).re_first(PRICE_REGEX) or 0)
         prices = [price for price in [price_sale, price_inactive, price_std] if float(price) > 0]
         return min(prices) if len(prices) > 0 else 0
+
+    def parse(self, response):
+        self.log(f"Need to create a rule for {response.url}")

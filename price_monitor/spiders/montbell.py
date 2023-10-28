@@ -21,7 +21,7 @@ class MontbellSpider(CrawlSpider):
     ]
 
     rules = [
-        Rule(LinkExtractor(allow=('disp.php')), callback='parse_detail_page', follow=True),
+        Rule(LinkExtractor(allow=('products/disp.php')), callback='parse_detail_page', follow=True),
         Rule(LinkExtractor(allow=(['list.php', 'index.php'])), callback='parse', follow=True)
     ]
 
@@ -35,3 +35,6 @@ class MontbellSpider(CrawlSpider):
 
     def get_price(self, response):
         return float(response.css(PRICE_SELECTOR).re_first(PRICE_REGEX) or 0)
+
+    def parse(self, response):
+        self.log(f"Need to create a rule for {response.url}")

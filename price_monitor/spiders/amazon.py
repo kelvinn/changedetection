@@ -17,3 +17,6 @@ class AmazonSpider(BaseSpider):
             response.css(PRICE_SELECTOR).re_first(PRICE_REGEX) or 0
         )
         yield item
+
+    def parse(self, response):
+        self.log(f"Need to create a rule for {response.url}")
