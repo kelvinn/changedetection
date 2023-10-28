@@ -26,7 +26,7 @@ class MontbellSpider(CrawlSpider):
     ]
 
     def parse_detail_page(self, response):
-        item = response.meta.get('item', {})
+        item = {} # response.meta.get('item', {})
         item['url'] = response.url
         item['title'] = response.css(TITLE_SELECTOR).extract_first("").strip()
         item['price'] = self.get_price(response)

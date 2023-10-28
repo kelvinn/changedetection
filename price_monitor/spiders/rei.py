@@ -35,7 +35,7 @@ class ReiSpider(CrawlSpider):
         try:
             product = json.loads(response.xpath('//script[@type="application/ld+json"]//text()').extract_first())
 
-            item = response.meta.get('item', {})
+            item = {} # response.meta.get('item', {})
             item['url'] = response.url
             item['title'] = product.get('name')
             item['price'] = self.get_price(product) or 0

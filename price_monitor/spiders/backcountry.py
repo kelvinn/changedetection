@@ -32,7 +32,7 @@ class BackcountrySpider(CrawlSpider):
     ]
 
     def parse_detail_page(self, response):
-        item = response.meta.get('item', {})
+        item = {} # response.meta.get('item', {})
         item['url'] = response.url
         brand = response.css(BRAND_SELECTOR).extract_first("").strip()
         item['title'] = f"""{brand} {response.css(TITLE_SELECTOR).extract_first("").strip()}"""
