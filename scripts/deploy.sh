@@ -29,4 +29,4 @@ do
    echo "Waiting for machine" $MACHINE_ID "to enter 'stopped' state. Current state: " $STATE
 done
 
-fly machine update $MACHINE_ID --yes --wait-timeout 600 --restart on-fail --skip-health-checks --schedule=daily --metadata fly_process_group=worker
+fly machine update $MACHINE_ID --yes --wait-timeout 600 --restart no --skip-health-checks --schedule=daily --metadata fly_process_group=worker
