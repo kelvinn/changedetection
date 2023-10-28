@@ -8,3 +8,4 @@ project.egg-info
 eggs-404627.zip
 .vscode
 node_modules
+crawls/

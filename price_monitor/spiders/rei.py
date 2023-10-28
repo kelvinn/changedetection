@@ -10,7 +10,8 @@ PRICE_SELECTOR = "#js-product-information-price > div > span > span > span"
 class ReiSpider(CrawlSpider):
     name = "rei.com"
     link_extractor = LinkExtractor()
-
+    custom_settings = {'JOBDIR': f'crawls/{name}'}
+    
     allowed_domains = ['rei.com']
     base_url = "https://www.rei.com/"
     start_urls = [

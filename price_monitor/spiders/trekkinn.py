@@ -12,7 +12,8 @@ PRICE_REGEX = "[-+]?\d*\.\d+|\d+"  # noqa
 class TrekkinnSpider(CrawlSpider):
     name = "trekkinn.com"
     link_extractor = LinkExtractor()
-
+    custom_settings = {'JOBDIR': f'crawls/{name}'}
+    
     allowed_domains = ['www.trekkinn.com']
     base_url = "https://www.trekkinn.com/"
     start_urls = [

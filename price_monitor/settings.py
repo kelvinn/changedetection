@@ -30,6 +30,18 @@ COOKIES_ENABLED = True
 
 BOT_NAME = 'Outdoor Price Monitor Side Project - kelvin@kelvinism.com'
 
+LOG_LEVEL = "INFO"
+
+COOKIES_ENABLED = False
+
+RETRY_ENABLED = False
+
+REDIRECT_ENABLED = False
+
+DEPTH_PRIORITY = 1
+SCHEDULER_DISK_QUEUE = "scrapy.squeues.PickleFifoDiskQueue"
+SCHEDULER_MEMORY_QUEUE = "scrapy.squeues.FifoMemoryQueue"
+
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': 100,
     'scrapy_useragents.downloadermiddlewares.useragents.UserAgentsMiddleware': 500,
@@ -67,3 +79,6 @@ HTTPCACHE_ENABLED = True
 HTTPCACHE_EXPIRATION_SECS = 86400
 HTTPCACHE_ALWAYS_STORE = True
 HTTPCACHE_IGNORE_RESPONSE_CACHE_CONTROLS = ["no-store", "no-cache", "must-revalidate"]
+
+TELNETCONSOLE_USERNAME = 'scrapy'
+TELNETCONSOLE_PASSWORD = 'scrapy'

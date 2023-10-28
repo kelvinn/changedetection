@@ -8,7 +8,8 @@ PRICE_REGEX = "[-+]?\d*\.\d+|\d+"  # noqa
 
 class AmazonSpider(BaseSpider):
     name = "amazon.com"
-
+    custom_settings = {'JOBDIR': f'crawls/{name}'}
+    
     def parse_detail_page(self, response):
         item = response.meta.get('item', {})
         item['url'] = response.url

@@ -14,7 +14,8 @@ PRICE_REGEX = "[-+]?\d*\.\d+|\d+"  # noqa
 class BackcountrySpider(CrawlSpider):
     name = "backcountry.com"
     link_extractor = LinkExtractor()
-
+    custom_settings = {'JOBDIR': f'crawls/{name}'}
+    
     allowed_domains = ['backcountry.com']
     base_url = "https://www.backcountry.com/"
     start_urls = [
