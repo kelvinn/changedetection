@@ -3,7 +3,7 @@ pyyaml==5.3.1
 responses==0.10.15
 urllib3==1.25.10
 yamllint==1.23.0
-fastapi
+fastapi 
 uvicorn[standard]
 diskcache==5.6.3
 
@@ -24,6 +24,8 @@ scrapy-useragents
 Twisted==22.10.0
 psycopg2
 alembic
+sentry-sdk
+
 
 
 # This is for testing

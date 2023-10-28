@@ -9,6 +9,20 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from price_monitor.spiders import montbell, rei, patagonia
 from diskcache import Cache
+import sentry_sdk
+
+
+SENTRY_DSN = os.getenv('SENTRY_DSN')
+
+sentry_sdk.init(
+    dsn=SENTRY_DSN,
+
+    # Set traces_sample_rate to 1.0 to capture 100%
+    # of transactions for performance monitoring.
+    # We recommend adjusting this value in production.
+    traces_sample_rate=1.0,
+)
+
 
 CACHE_DIR = os.getenv('CACHE_DIR', '/tmp/data')
 
