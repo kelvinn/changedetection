@@ -1,6 +1,6 @@
 # Background
 
-![Python package](https://github.com/kelvinn/changedetection/workflows/Python%20package/badge.svg)
+[![Test and Deploy](https://github.com/kelvinn/changedetection/actions/workflows/main.yml/badge.svg)](https://github.com/kelvinn/changedetection/actions/workflows/main.yml)
 
 Some random things I'm using to track prices of things I may want to buy.
 
