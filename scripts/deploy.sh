@@ -6,7 +6,6 @@ set -e
 
 # See README.md for how to get these values
 
-TAG="0.0.$GITHUB_RUN_NUMBER" # Initially set this to "0.0.1", and then update to come from Github Actions
 APP_NAME="changedetection-a32cf"
 
 fly deploy --ha=false --strategy immediate --wait-timeout 240
