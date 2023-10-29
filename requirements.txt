@@ -24,7 +24,7 @@ uvicorn[standard]
 diskcache==5.6.3
 psycopg2
 alembic
-sentry-sdk
+sentry-sdk>=1.32.0
 
 # This is for testing
 pytest

@@ -10,9 +10,10 @@ from scrapy.utils.project import get_project_settings
 from price_monitor.spiders import montbell, rei, patagonia
 from diskcache import Cache
 import sentry_sdk
-
+from sentry_sdk.crons import monitor
 
 SENTRY_DSN = os.getenv('SENTRY_DSN')
+
 
 sentry_sdk.init(
     dsn=SENTRY_DSN,
@@ -36,6 +37,7 @@ def back_off(key, delay):
     return False if not last_update or datetime.fromisoformat(last_update) < past else True
 
 
+@monitor(monitor_slug='daily-scrape')
 def scrape():
     last_run = cache.get("scrapy_last_ran")
     now = datetime.now()
