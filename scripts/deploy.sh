@@ -14,7 +14,7 @@ fly deploy --ha=false --strategy immediate --wait-timeout 240
 sleep 10 # Wait for deploy to finish
 
 fly scale count 1 --yes --process-group worker
-fly scale memory 512
+fly scale memory 512 --process-group worker
 
 MACHINE_ID=$(fly machine list --json | jq -r -c '.[] | select(.config.metadata.fly_process_group == "worker") | .id')
 STATE=$(fly machine list --json | jq -r -c '.[] | select(.config.metadata.fly_process_group == "worker") | .state')
