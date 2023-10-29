@@ -2,7 +2,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, ForeignKey, Table, Float, DateTime
 from sqlalchemy.orm import relationship, mapped_column
 
-Base = declarative_base()
+from database import Base
 
 
 class Store(Base):
@@ -26,6 +26,6 @@ class Product(Base):
     gid = Column(Integer, primary_key=True)
     name = Column(String, unique=False)
     url = Column(String, unique=True)
-    prices = relationship("Price", back_populates="product")
+    prices = relationship("Price", back_populates="product", lazy=False)
     created = Column(DateTime)
     last_updated = Column(DateTime)

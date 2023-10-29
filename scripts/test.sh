@@ -5,5 +5,5 @@
 set -e
 
 alembic upgrade head
-pytest tests.py
+pytest
 scrapy check

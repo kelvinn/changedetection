@@ -26,7 +26,6 @@ psycopg2
 alembic
 sentry-sdk
 
-
-
 # This is for testing
 pytest
+httpx
