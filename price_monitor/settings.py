@@ -36,7 +36,7 @@ COOKIES_ENABLED = False
 
 RETRY_ENABLED = False
 
-REDIRECT_ENABLED = False
+REDIRECT_ENABLED = True  # Keep this as True, or 'scrapy check' will fail
 
 DEPTH_PRIORITY = 1
 SCHEDULER_DISK_QUEUE = "scrapy.squeues.PickleFifoDiskQueue"

@@ -40,7 +40,7 @@ class PatagoniaSpider(CrawlSpider):
         """
         self.logger.info('Parse Detail Page function called on %s', response.url)
         item = {} # response.meta.get('item', {})
-        item['url'] = response.url
+        item['url'] = str(response.url)
         item['title'] = response.css(TITLE_SELECTOR).extract_first("").strip()
         item['price'] = self.get_price(response)
         return item
