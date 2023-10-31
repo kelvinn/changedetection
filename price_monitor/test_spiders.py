@@ -8,7 +8,8 @@ from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkin
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine, Table
 from models import Store, Price, Product
-from price_monitor.pipelines import get_postgres_session
+from price_monitor.pipelines import get_postgres_engine
+from sqlalchemy.orm import Session
 
 
 def cleanup():
@@ -55,7 +56,9 @@ class ScraperSubtest(unittest.TestCase):
 class DatabaseCase(unittest.TestCase):
 
     def setUp(self):
-        self.session = get_postgres_session()
+        engine = get_postgres_engine()
+        with Session(engine) as session:
+            self.session = session
         self.name = 'Test Product Name'
         self.amount = 12.3
 
