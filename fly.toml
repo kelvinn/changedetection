@@ -15,6 +15,11 @@ primary_region = "syd"
   app = "uvicorn app.main:app --host 0.0.0.0 --port 3000"
   worker = "python main.py"
 
+[mounts]
+  source="changedetection_data"
+  destination="/data"
+  processes= ["worker"]
+
 [[services]]
   protocol = ""
   auto_stop_machines = true
