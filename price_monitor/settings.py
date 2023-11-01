@@ -45,6 +45,7 @@ SCHEDULER_MEMORY_QUEUE = "scrapy.squeues.FifoMemoryQueue"
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': 100,
     'scrapy_useragents.downloadermiddlewares.useragents.UserAgentsMiddleware': 500,
+    "scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware": 900,
 }
 
 USER_AGENTS = [
@@ -76,6 +77,7 @@ CONCURRENT_REQUESTS = 4
 CONCURRENT_REQUESTS_PER_DOMAIN = 2
 AUTOTHROTTLE_ENABLED = True
 HTTPCACHE_ENABLED = True
+HTTPCACHE_DIR = "/data/httpcache"
 HTTPCACHE_EXPIRATION_SECS = 86400
 HTTPCACHE_ALWAYS_STORE = True
 HTTPCACHE_IGNORE_RESPONSE_CACHE_CONTROLS = ["no-store", "no-cache", "must-revalidate"]
