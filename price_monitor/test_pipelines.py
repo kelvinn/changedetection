@@ -70,4 +70,4 @@ class PipelineSubtest(unittest.TestCase):
 
         product = self.db.query(models.Product).filter_by(name=self.item['title']).one_or_none()
 
-        assert len(product.prices) is 3
+        assert len(product.prices) == 3

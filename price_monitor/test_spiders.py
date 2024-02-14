@@ -1,19 +1,11 @@
 import unittest
-from os import getenv
-import responses
 from datetime import datetime
 from scrapy.http import Request, TextResponse
-from main import back_off, cache
+from main import cache
 from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkinn
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine, Table
-from models import Store, Price, Product
+from models import Price, Product
 from price_monitor.pipelines import get_postgres_engine
 from sqlalchemy.orm import Session
-
-
-def cleanup():
-    cache.delete('1742b2350006e55ba3241d3e0b2926c45150c30ea782d778bc1fce6e')
 
 
 param_list = [('a', 'a'), ('a', 'b'), ('b', 'b')]

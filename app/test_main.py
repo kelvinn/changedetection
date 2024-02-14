@@ -1,13 +1,10 @@
 from fastapi.testclient import TestClient
-from fastapi import Depends
 import models
 from database import SessionLocal, engine
-from sqlalchemy.orm import Session
-
-models.Base.metadata.create_all(bind=engine)
-
 from .main import app
 from datetime import datetime
+
+models.Base.metadata.create_all(bind=engine)
 
 client = TestClient(app)
 
