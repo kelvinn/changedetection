@@ -36,7 +36,6 @@ class ScraperSubtest(unittest.TestCase):
 
     def tearDown(self):
         pass
-        
 
     def test_parse_detail_page(self):
         for filename, expected_price, spider in scraper_detail_page_test_criteria:
@@ -53,7 +52,7 @@ class ScraperSubtest(unittest.TestCase):
 
 
 # This is for just searching if text has changed.
-class DatabaseCase(unittest.TestCase):
+class DatabaseSubtest(unittest.TestCase):
 
     def setUp(self):
         engine = get_postgres_engine()

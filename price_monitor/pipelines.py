@@ -5,6 +5,9 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 from models import Price, Product
+from collections import defaultdict
+from sqlalchemy import asc, desc
+from sqlalchemy import select
 
 
 def get_postgres_engine():
@@ -23,9 +26,8 @@ class PostgresPipeline:
     def __init__(self):
         ## Connection Details
         pass
-    
-    def process_item(self, item, spider):
 
+    def process_item(self, item, spider):
 
         engine = get_postgres_engine()
         
@@ -33,20 +35,24 @@ class PostgresPipeline:
 
             product = session.query(Product).filter_by(url=item.get('url')).one_or_none()
 
-
             # Create the product if it does not already exist
             if not product:
                 product = Product(name=item.get('title'), 
-                                url=item.get('url'), 
-                                created=datetime.now(), 
-                                last_updated=datetime.now()
-                                )
+                                  url=item.get('url'),
+                                  created=datetime.now(),
+                                  last_updated=datetime.now()
+                                  )
 
                 session.add(product)
 
-            price = Price(amount=item.get('price'), product=product, created=datetime.now())
+            statement = select(Price).filter_by(product_gid=product.gid).order_by(desc(Price.created))
 
-            session.add(price)
+            last_price = session.scalars(statement).first()
+
+            if last_price and last_price.amount != float(item.get('price')):
+                price = Price(amount=item.get('price'), product=product, created=datetime.now())
+
+                session.add(price)
             session.commit()
 
         return item

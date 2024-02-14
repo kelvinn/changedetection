@@ -4,6 +4,7 @@ project.egg-info
 .env
 .venv
 .scrapy
+.idea
 .venv38
 eggs-404627.zip
 .vscode
