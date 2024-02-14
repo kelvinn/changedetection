@@ -1,6 +1,5 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-from scrapy import Request
 
 TITLE_SELECTOR = "#main > main > div > div.product-details > div.product-details__main-column > form > h1::text"
 PRICE_SELECTOR = "#main > main > div > div.product-details > div.product-details__main-column > form > p.product-details__price > em"  # noqa
@@ -12,7 +11,7 @@ class MontbellSpider(CrawlSpider):
     name = "montbell.us"
     link_extractor = LinkExtractor()
     custom_settings = {'JOBDIR': f'crawls/{name}'}
-    
+
     allowed_domains = ['montbell.us']
     base_url = "https://www.montbell.us/"
     start_urls = [
@@ -27,7 +26,7 @@ class MontbellSpider(CrawlSpider):
     ]
 
     def parse_detail_page(self, response):
-        item = {} # response.meta.get('item', {})
+        item = {}
         item['url'] = str(response.url)
         item['title'] = str(response.css(TITLE_SELECTOR).extract_first("").strip())
         item['price'] = self.get_price(response)

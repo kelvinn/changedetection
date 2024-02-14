@@ -1,6 +1,5 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-from scrapy import Request
 
 BRAND_SELECTOR = "body > div.body-wrap > div > article > div.product-overview.js-product-overview > section.product-buybox.js-product-buybox.qa-product-buybox > div.product-buybox-intro > h1 > span::text"  # noqa
 TITLE_SELECTOR = "body > div.body-wrap > div > article > div.product-overview.js-product-overview > section.product-buybox.js-product-buybox.qa-product-buybox > div.product-buybox-intro > h1::text"  # noqa
@@ -15,7 +14,7 @@ class BackcountrySpider(CrawlSpider):
     name = "backcountry.com"
     link_extractor = LinkExtractor()
     custom_settings = {'JOBDIR': f'crawls/{name}'}
-    
+
     allowed_domains = ['backcountry.com']
     base_url = "https://www.backcountry.com/"
     start_urls = [
@@ -33,7 +32,7 @@ class BackcountrySpider(CrawlSpider):
     ]
 
     def parse_detail_page(self, response):
-        item = {} # response.meta.get('item', {})
+        item = {}
         item['url'] = response.url
         brand = response.css(BRAND_SELECTOR).extract_first("").strip()
         item['title'] = f"""{brand} {response.css(TITLE_SELECTOR).extract_first("").strip()}"""

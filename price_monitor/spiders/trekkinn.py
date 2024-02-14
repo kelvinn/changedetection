@@ -1,6 +1,5 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-from scrapy import Request
 
 TITLE_SELECTOR = "#parallax > div > div:nth-child(4) > div.detalles > div.info > h1::text"
 PRICE_SALE_SELECTOR = "#total_dinamic"
@@ -13,7 +12,7 @@ class TrekkinnSpider(CrawlSpider):
     name = "trekkinn.com"
     link_extractor = LinkExtractor()
     custom_settings = {'JOBDIR': f'crawls/{name}'}
-    
+
     allowed_domains = ['www.trekkinn.com']
     base_url = "https://www.trekkinn.com/"
     start_urls = [
@@ -28,7 +27,7 @@ class TrekkinnSpider(CrawlSpider):
     ]
 
     def parse_detail_page(self, response):
-        item = {} # response.meta.get('item', {})
+        item = {}
         item['url'] = response.url
         item['title'] = response.css(TITLE_SELECTOR).extract_first("").strip()
         item['price'] = self.get_price(response)

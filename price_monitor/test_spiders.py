@@ -1,7 +1,6 @@
 import unittest
 from datetime import datetime
 from scrapy.http import Request, TextResponse
-from main import cache
 from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkinn
 from models import Price, Product
 from price_monitor.pipelines import get_postgres_engine
@@ -72,7 +71,7 @@ class DatabaseSubtest(unittest.TestCase):
         self.session.add(price)
 
         self.session.commit()
-        
+
         result = self.session.query(Product).filter_by(name=name)
 
         self.assertEqual(1, result.count())
@@ -84,4 +83,3 @@ class DatabaseSubtest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-

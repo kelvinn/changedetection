@@ -50,10 +50,10 @@ class PipelineSubtest(unittest.TestCase):
 
         ret2 = pipeline.process_item(self.item, spider)  # Yes, do it twice
         assert ret2 is not None
-        
+
         product = self.db.query(models.Product).filter_by(name=self.item['title']).one_or_none()
 
-        assert len(product.prices) is 1
+        assert len(product.prices) == 1
 
     def test_non_duplicate_prices(self):
         spider = Spider(name='spider')

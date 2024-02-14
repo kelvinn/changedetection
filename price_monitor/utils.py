@@ -4,8 +4,8 @@ import requests
 from datetime import datetime, timedelta
 
 
-def timestamp_from_reversed(reversed):
-    return datetime(5000, 1, 1) - timedelta(seconds=float(reversed))
+def timestamp_from_reversed(reversed_items):
+    return datetime(5000, 1, 1) - timedelta(seconds=float(reversed_items))
 
 
 def reversed_timestamp():
@@ -26,7 +26,7 @@ def get_product_names():
 
 
 def get_retailer_name_from_url(url):
-        return url.split("://")[1].split("/")[0].replace("www.", "")
+    return url.split("://")[1].split("/")[0].replace("www.", "")
 
 
 def get_retailers_for_product(product_name):
