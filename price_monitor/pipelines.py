@@ -13,6 +13,7 @@ def get_postgres_engine():
     engine = create_engine(DATABASE_URL)
     return engine
 
+
 class CollectionStoragePipeline(object):
 
     def process_item(self, item, spider):
@@ -42,14 +43,11 @@ class PostgresPipeline:
 
                 session.add(product)
 
-            statement = select(Price).filter_by(product_gid=product.gid).order_by(desc(Price.created))
+            if len(product.prices) == 0 or len(product.prices) > 0 and product.prices[0].amount != item.get('price'):
 
-            last_price = session.scalars(statement).first()
-
-            if last_price and last_price.amount != float(item.get('price')):
                 price = Price(amount=item.get('price'), product=product, created=datetime.now())
 
                 session.add(price)
-            session.commit()
+                session.commit()
 
         return item

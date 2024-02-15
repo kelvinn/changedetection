@@ -19,7 +19,7 @@ def test_read_main():
 
     product = db.query(models.Product).filter_by(name=name).one_or_none()
     if not product:
-    # Add a test product
+        # Add a test product
         product = models.Product(name=name, url=url, created=datetime.now(), last_updated=datetime.now())
         db.add(product)
         db.commit()
@@ -37,3 +37,10 @@ def test_read_main():
     assert data['name'] == name
     assert data['url'] == url
     assert data['prices'][0]['amount'] == amount
+
+    product = db.query(models.Product).filter_by(name=name).one_or_none()
+
+    # Cleanup
+    db.query(models.Price).filter(models.Price.product_gid == product.gid).delete(synchronize_session=False)  # noqa
+    db.query(models.Product).filter(models.Product.name == product.name).delete(synchronize_session=False)  # noqa
+    db.commit()

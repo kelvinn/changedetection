@@ -20,8 +20,8 @@ class PipelineSubtest(unittest.TestCase):
     def cleanup(self):
         product = self.db.query(models.Product).filter_by(name=self.item['title']).one_or_none()
         if product:  # Feels dirty. Tidy up somehow.
-            self.db.query(models.Price).filter(models.Price.product_gid == product.gid).delete(synchronize_session=False)
-            self.db.query(models.Product).filter(models.Product.name == self.item['title']).delete(synchronize_session=False)
+            self.db.query(models.Price).filter(models.Price.product_gid == product.gid).delete(synchronize_session=False)  # noqa
+            self.db.query(models.Product).filter(models.Product.name == self.item['title']).delete(synchronize_session=False)  # noqa
             self.db.commit()
 
     def setUp(self):
@@ -65,7 +65,7 @@ class PipelineSubtest(unittest.TestCase):
         ret2 = pipeline.process_item(self.item2, spider)  # Yes, do it twice
         assert ret2 is not None
 
-        ret3 = pipeline.process_item(self.item, spider)  # Yes, do it twice
+        ret3 = pipeline.process_item(self.item, spider)  # Yes, do it a third time
         assert ret3 is not None
 
         product = self.db.query(models.Product).filter_by(name=self.item['title']).one_or_none()
