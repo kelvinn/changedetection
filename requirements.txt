@@ -16,7 +16,7 @@ shub==2.14.5
 dnspython
 msgpack-python
 scrapy-useragents
-Twisted==22.10.0
+Twisted==23.10.0
 
 # Below are for running the app and using the database
 fastapi 
