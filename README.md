@@ -11,10 +11,7 @@ Some random things I'm using to track prices of things I may want to buy.
 * createuser -s postgres
 * createdb changedetection
 * pip install -r requirements.txt
-* colima start
-* docker compose up
-* bash scripts/test.sh
-* scrapy check
+* bash scripts/test.py
 
 # Deployment
 

@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime
 from scrapy.http import Request, TextResponse
-from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkinn
+from price_monitor.spiders import patagonia, montbell, rei, backcountry, trekkinn, run_au
 from models import Price, Product
 from price_monitor.pipelines import get_postgres_engine
 from sqlalchemy.orm import Session
@@ -16,7 +16,8 @@ scraper_detail_page_test_criteria = [
     (r'data/rei_detail.html', 98.83, rei.ReiSpider()),
     (r'data/rei_detail_std.html', 149.0, rei.ReiSpider()),
     (r'data/rei_detail_inreach.html', 0, rei.ReiSpider()),
-    (r'data/trekkinn_detail.html', 165.99, trekkinn.TrekkinnSpider())
+    (r'data/trekkinn_detail.html', 165.99, trekkinn.TrekkinnSpider()),
+    (r'data/running_warehouse_au.html', 329.96, run_au.RunAUSpider())
 ]
 
 
