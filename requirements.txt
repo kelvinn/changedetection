@@ -6,7 +6,7 @@ yamllint==1.23.0
 
 # Below are all for Scrapy
 attrs==23.1.0 # THIS HAS TO BE SPECIFIED
-scrapy==2.10.1
+scrapy==2.11.2
 extruct==0.9.0
 w3lib==1.22.0
 jinja2>=2.11.3
