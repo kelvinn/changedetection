@@ -6,60 +6,65 @@
 app = "changedetection-db"
 primary_region = "syd"
 
+[checks.pg]
+interval = "15s"
+path = "/flycheck/pg"
+port = 5_500
+timeout = "10s"
+type = "http"
+
+[checks.role]
+interval = "15s"
+path = "/flycheck/role"
+port = 5_500
+timeout = "10s"
+type = "http"
+
+[checks.vm]
+interval = "15s"
+path = "/flycheck/vm"
+port = 5_500
+timeout = "10s"
+type = "http"
+
 [env]
-  FLY_SCALE_TO_ZERO = "1h"
-  PRIMARY_REGION = "syd"
-
-[[mounts]]
-  source = "pg_data"
-  destination = "/data"
-
-[[services]]
-  protocol = "tcp"
-  internal_port = 5432
-  auto_start_machines = true
-
-  [[services.ports]]
-    port = 5432
-    handlers = ["pg_tls"]
-  [services.concurrency]
-    type = "connections"
-    hard_limit = 1000
-    soft_limit = 1000
-
-[[services]]
-  protocol = "tcp"
-  internal_port = 5433
-  auto_start_machines = true
-
-  [[services.ports]]
-    port = 5433
-    handlers = ["pg_tls"]
-  [services.concurrency]
-    type = "connections"
-    hard_limit = 1000
-    soft_limit = 1000
-
-[checks]
-  [checks.pg]
-    port = 5500
-    type = "http"
-    interval = "15s"
-    timeout = "10s"
-    path = "/flycheck/pg"
-  [checks.role]
-    port = 5500
-    type = "http"
-    interval = "15s"
-    timeout = "10s"
-    path = "/flycheck/role"
-  [checks.vm]
-    port = 5500
-    type = "http"
-    interval = "15s"
-    timeout = "10s"
-    path = "/flycheck/vm"
+FLY_SCALE_TO_ZERO = "1h"
+PRIMARY_REGION = "syd"
 
 [[metrics]]
-  port = 9187
-  path = "/metrics"
+path = "/metrics"
+port = 9_187
+
+[[mounts]]
+destination = "/data"
+source = "pg_data"
+
+[[services]]
+auto_start_machines = true
+auto_stop_machines = true
+internal_port = 5_432
+protocol = "tcp"
+
+  [services.concurrency]
+  hard_limit = 1_000
+  soft_limit = 1_000
+  type = "connections"
+
+  [[services.ports]]
+  handlers = [ "pg_tls" ]
+  port = 5_432
+
+[[services]]
+auto_start_machines = true
+auto_stop_machines = true
+internal_port = 5_433
+protocol = "tcp"
+
+  [services.concurrency]
+  hard_limit = 1_000
+  soft_limit = 1_000
+  type = "connections"
+
+  [[services.ports]]
+  handlers = [ "pg_tls" ]
+  port = 5_433
