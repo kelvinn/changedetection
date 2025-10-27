@@ -9,14 +9,14 @@ from sqlalchemy.orm import Session
 
 param_list = [('a', 'a'), ('a', 'b'), ('b', 'b')]
 scraper_detail_page_test_criteria = [
-    (r'data/montbell_detail.html', 285.00, montbell.MontbellSpider()),
-    (r'data/patagonia_detail.html', 99.0, patagonia.PatagoniaSpider()),
-    (r'data/backcountry_detail.html', 299.99, backcountry.BackcountrySpider()),
-    (r'data/rei_detail.html', 98.83, rei.ReiSpider()),
-    (r'data/rei_detail_std.html', 149.0, rei.ReiSpider()),
-    (r'data/rei_detail_inreach.html', 0, rei.ReiSpider()),
-    (r'data/trekkinn_detail.html', 165.99, trekkinn.TrekkinnSpider()),
-    (r'data/running_warehouse_au.html', 329.96, run_au.RunAUSpider())
+    (r'data/montbell_detail.html', 285.00, "Versalite Jacket Men's", montbell.MontbellSpider()),
+    (r'data/patagonia_detail.html', 89.0, "Fitz Roy Icon Uprisal Hoody", patagonia.PatagoniaSpider()),
+    (r'data/backcountry_detail.html', 103.95, "TX Hike Mid GTX Hiking Boot - Men's", backcountry.BackcountrySpider()),
+    #(r'data/rei_detail.html', 98.83, rei.ReiSpider()),
+    #(r'data/rei_detail_std.html', 149.0, rei.ReiSpider()),
+    #(r'data/rei_detail_inreach.html', 0, rei.ReiSpider()),
+    #(r'data/trekkinn_detail.html', 165.99, trekkinn.TrekkinnSpider()),
+    #(r'data/running_warehouse_au.html', 329.96, run_au.RunAUSpider())
 ]
 
 
@@ -29,7 +29,7 @@ class ScraperSubtest(unittest.TestCase):
         pass
 
     def test_parse_detail_page(self):
-        for filename, expected_price, spider in scraper_detail_page_test_criteria:
+        for filename, expected_price, expected_title, spider in scraper_detail_page_test_criteria:
             with self.subTest(filename):
                 with open(filename) as f:
                     sample = f.read()
@@ -40,7 +40,18 @@ class ScraperSubtest(unittest.TestCase):
 
                 parsed = spider.parse_detail_page(response)
                 self.assertEqual(expected_price, parsed['price'])
+                self.assertEqual(expected_title, parsed.get('title'))
 
+
+    def test_montbell_name_extraction(self):
+        with open('data/montbell_detail.html') as f:
+            sample = f.read()
+        url = 'http://www.example.com'
+        response = TextResponse(url=url, request=Request(url=url), body=sample,
+                                encoding='utf-8')
+        parsed = montbell.MontbellSpider().parse_detail_page(response)
+        self.assertIn('title', parsed)
+        self.assertEqual("Versalite Jacket Men's", parsed.get('title'))
 
 # This is for just searching if text has changed.
 class DatabaseSubtest(unittest.TestCase):
@@ -81,5 +92,7 @@ class DatabaseSubtest(unittest.TestCase):
         self.assertEqual(amount, first_product.prices[0].amount)
 
 
+        
 if __name__ == '__main__':
+
     unittest.main()

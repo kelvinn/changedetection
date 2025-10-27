@@ -20,7 +20,7 @@ class PatagoniaSpider(CrawlSpider):
     allowed_domains = ['patagonia.com']
     base_url = "https://www.patagonia.com/"
     start_urls = [
-        'https://www.patagonia.com/product/mens-tropic-comfort-hoody-ii/52124.html',
+        'https://www.patagonia.com/product/fitz-roy-icon-uprisal-fleece-hoody/39666.html',
         'https://www.patagonia.com/shop/womens-jackets-vests'
 
     ]
