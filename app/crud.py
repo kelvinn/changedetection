@@ -10,5 +10,5 @@ def get_product(db: Session, product_gid: int):
     return product
 
 def get_products(db: Session):
-    products = db.query(models.Product).all()
+    products = db.query(models.Product).first()
     return products
