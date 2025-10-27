@@ -1,5 +1,6 @@
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
+from typing import List
 
 from app import crud, schemas
 import models
@@ -25,3 +26,8 @@ def read_product(product_gid: int, db: Session = Depends(get_db)):
     if db_product is None:
         raise HTTPException(status_code=404, detail="Product not found")
     return db_product
+
+@app.get("/products/", response_model=List[schemas.ProductSummary])
+def read_products(db: Session = Depends(get_db)):
+    products = crud.get_products(db)
+    return products

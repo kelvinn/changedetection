@@ -21,4 +21,9 @@ class Product(BaseModel):
     prices: List[Price]
     created: datetime
     last_updated: datetime
-    
+
+class ProductSummary(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    name: str
+    url: str
