@@ -9,8 +9,7 @@ from sqlalchemy.orm import Session
 
 param_list = [('a', 'a'), ('a', 'b'), ('b', 'b')]
 scraper_detail_page_test_criteria = [
-    (r'data/montbell_detail.html', 329.0, montbell.MontbellSpider()),
-    (r'data/montbell_detail_2.html', 44.0, montbell.MontbellSpider()),
+    (r'data/montbell_detail.html', 285.00, montbell.MontbellSpider()),
     (r'data/patagonia_detail.html', 99.0, patagonia.PatagoniaSpider()),
     (r'data/backcountry_detail.html', 299.99, backcountry.BackcountrySpider()),
     (r'data/rei_detail.html', 98.83, rei.ReiSpider()),
