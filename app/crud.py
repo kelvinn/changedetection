@@ -10,5 +10,5 @@ def get_product(db: Session, product_gid: int):
     return product
 
 def get_products(db: Session):
-    products = db.query(models.Product).filter(models.Product.gid.between(500,550)).all()
+    products = db.query(models.Product).filter(models.Product.gid.between(2500,2550)).all()
     return products
