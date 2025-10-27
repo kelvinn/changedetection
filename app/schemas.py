@@ -25,5 +25,6 @@ class Product(BaseModel):
 class ProductSummary(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
+    gid: int
     name: str
     url: str
