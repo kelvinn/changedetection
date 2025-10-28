@@ -42,6 +42,7 @@ def scrape():
     last_run = cache.get("scrapy_last_ran")
     now = datetime.now()
     if not last_run or now-timedelta(days=1) > last_run or not os.getenv('FLY_ALLOC_ID', None):  # If not on fly then always run
+
         cache.set("scrapy_last_ran", now)
 
         spiders = [montbell.MontbellSpider, patagonia.PatagoniaSpider, backcountry.BackcountrySpider]
@@ -51,7 +52,8 @@ def scrape():
             process.crawl(spider)
 
         process.start()  # blocking call
-
+    else:
+        logging.info("Scrape skipped as ran within last 24 hours")
 
 if __name__ == "__main__":
     scrape()
