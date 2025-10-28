@@ -44,7 +44,7 @@ def scrape():
     if not last_run or now-timedelta(days=1) > last_run or not os.getenv('FLY_ALLOC_ID', None):  # If not on fly then always run
         cache.set("scrapy_last_ran", now)
 
-        spiders = [montbell.MontbellSpider, rei.ReiSpider, patagonia.PatagoniaSpider, backcountry.BackcountrySpider]
+        spiders = [montbell.MontbellSpider, patagonia.PatagoniaSpider, backcountry.BackcountrySpider]
         process = CrawlerProcess(get_project_settings())
 
         for spider in spiders:
